@@ -1,0 +1,506 @@
+[
+  {
+    "title": "AW.1050",
+    "norma_un": "L-3051",
+    "data": [
+      {
+        "estado": "O",
+        "densidad": "2,70",
+        "rotura": "65-95",
+        "limite": "20",
+        "modulo": "69000",
+        "alargamiento": "42",
+        "dureza": "21",
+        "fusion": "645-660",
+        "cond_termica": "229",
+        "dilatacion": "23,5",
+        "cond_electrica": "59,5"
+      },
+      {
+        "estado": "H-14",
+        "densidad": "2,70",
+        "rotura": "100-140",
+        "limite": "105",
+        "modulo": "69000",
+        "alargamiento": "10",
+        "dureza": "35",
+        "fusion": "645-660",
+        "cond_termica": "229",
+        "dilatacion": "23,5",
+        "cond_electrica": "59,5"
+      },
+      {
+        "estado": "H-18",
+        "densidad": "2,70",
+        "rotura": "150",
+        "limite": "140",
+        "modulo": "69000",
+        "alargamiento": "6",
+        "dureza": "43",
+        "fusion": "645-660",
+        "cond_termica": "229",
+        "dilatacion": "23,5",
+        "cond_electrica": "59,5"
+      }
+    ],
+    "cortes": [
+      {
+        "label": "chapa"
+      },
+      {
+        "label": "plancha"
+      },
+      {
+        "label": "rodillos"
+      },
+      {
+        "label": "tubos"
+      },
+      {
+        "label": "barra"
+      }
+    ]
+  },
+  {
+    "title": "AW.2007",
+    "norma_un": "L-3051",
+    "data": [
+      {
+        "estado": "T-3",
+        "densidad": "2,85",
+        "rotura": "460",
+        "limite": "360",
+        "modulo": "72500",
+        "alargamiento": "11",
+        "dureza": "115",
+        "fusion": "510-640",
+        "cond_termica": "130",
+        "dilatacion": "23",
+        "cond_electrica": "—"
+      },
+      {
+        "estado": "T-4",
+        "densidad": "2,85",
+        "rotura": "445",
+        "limite": "295",
+        "modulo": "72500",
+        "alargamiento": "14",
+        "dureza": "10",
+        "fusion": "510-640",
+        "cond_termica": "130",
+        "dilatacion": "23",
+        "cond_electrica": "34"
+      }
+    ],
+    "cortes": [
+      {
+        "label": "chapa"
+      },
+      {
+        "label": "plancha"
+      },
+      {
+        "label": "rodillos"
+      }
+    ]
+  },
+  {
+    "title": "AW.2011",
+    "norma_un": "L-3051",
+    "data": [
+      {
+        "estado": "T-3",
+        "densidad": "2,84",
+        "rotura": "290-365",
+        "limite": "205-290",
+        "modulo": "72500",
+        "alargamiento": "12-15",
+        "dureza": "95-100",
+        "fusion": "540-645",
+        "cond_termica": "152",
+        "dilatacion": "23",
+        "cond_electrica": "39"
+      },
+      {
+        "estado": "T-4",
+        "densidad": "2,84",
+        "rotura": "350",
+        "limite": "270",
+        "modulo": "72500",
+        "alargamiento": "18",
+        "dureza": "95",
+        "fusion": "540-645",
+        "cond_termica": "152",
+        "dilatacion": "23",
+        "cond_electrica": "39"
+      }
+    ],
+    "cortes": [
+      {
+        "label": "chapa"
+      },
+      {
+        "label": "plancha"
+      },
+      {
+        "label": "rodillos"
+      }
+    ]
+  },
+  {
+    "title": "AW.2017",
+    "norma_un": "L-3051",
+    "data": [
+      {
+        "estado": "T-451",
+        "densidad": "2,80",
+        "rotura": "385",
+        "limite": "245",
+        "modulo": "72500",
+        "alargamiento": "12",
+        "dureza": "105",
+        "fusion": "510-645",
+        "cond_termica": "134",
+        "dilatacion": "22,9",
+        "cond_electrica": "34"
+      }
+    ],
+    "cortes": [
+      {
+        "label": "chapa"
+      },
+      {
+        "label": "plancha"
+      },
+      {
+        "label": "rodillos"
+      }
+    ]
+  },
+  {
+    "title": "AW.2024",
+    "norma_un": "L-3051",
+    "data": [
+      {
+        "estado": "T-351",
+        "densidad": "2,80",
+        "rotura": "420-435",
+        "limite": "285-290",
+        "modulo": "72500",
+        "alargamiento": "9-12",
+        "dureza": "120",
+        "fusion": "500-640",
+        "cond_termica": "121-193",
+        "dilatacion": "23,1",
+        "cond_electrica": "30"
+      }
+    ],
+    "cortes": [
+      {
+        "label": "chapa"
+      },
+      {
+        "label": "plancha"
+      },
+      {
+        "label": "rodillos"
+      }
+    ]
+  },
+  {
+    "title": "AW.2030",
+    "norma_un": "L-3051",
+    "data": [
+      {
+        "estado": "T-3",
+        "densidad": "2,82",
+        "rotura": "460",
+        "limite": "360",
+        "modulo": "72500",
+        "alargamiento": "11",
+        "dureza": "115",
+        "fusion": "510-640",
+        "cond_termica": "134",
+        "dilatacion": "23",
+        "cond_electrica": "3,4"
+      }
+    ],
+    "cortes": [
+      {
+        "label": "chapa"
+      },
+      {
+        "label": "plancha"
+      },
+      {
+        "label": "rodillos"
+      }
+    ]
+  },
+  {
+    "title": "AW.5083",
+    "norma_un": "L-3051",
+    "data": [
+      {
+        "estado": "O/H-111",
+        "densidad": "2,70",
+        "rotura": "300",
+        "limite": "145",
+        "modulo": "71000",
+        "alargamiento": "23",
+        "dureza": "70",
+        "fusion": "580-640",
+        "cond_termica": "117",
+        "dilatacion": "23,8",
+        "cond_electrica": "28,5"
+      }
+    ],
+    "cortes": [
+      {
+        "label": "chapa"
+      },
+      {
+        "label": "plancha"
+      },
+      {
+        "label": "rodillos"
+      }
+    ]
+  },
+  {
+    "title": "AW.5754",
+    "norma_un": "L-3051",
+    "data": [
+      {
+        "estado": "O/H-111",
+        "densidad": "2,70",
+        "rotura": "215",
+        "limite": "100",
+        "modulo": "70500",
+        "alargamiento": "25",
+        "dureza": "55",
+        "fusion": "595-645",
+        "cond_termica": "112",
+        "dilatacion": "23,7",
+        "cond_electrica": "32,5"
+      }
+    ],
+    "cortes": []
+  },
+  {
+    "title": "AW.6060",
+    "norma_un": "L-3051",
+    "data": [
+      {
+        "estado": "T-5",
+        "densidad": "2,70",
+        "rotura": "220",
+        "limite": "185",
+        "modulo": "69500",
+        "alargamiento": "13",
+        "dureza": "75",
+        "fusion": "610-655",
+        "cond_termica": "209",
+        "dilatacion": "23,4",
+        "cond_electrica": "54"
+      }
+    ],
+    "cortes": [
+      {
+        "label": "chapa"
+      },
+      {
+        "label": "plancha"
+      },
+      {
+        "label": "rodillos"
+      }
+    ]
+  },
+  {
+    "title": "AW.6061",
+    "norma_un": "L-3051",
+    "data": [
+      {
+        "estado": "T-6",
+        "densidad": "2,70",
+        "rotura": "310",
+        "limite": "270",
+        "modulo": "70000",
+        "alargamiento": "14",
+        "dureza": "95",
+        "fusion": "580-650",
+        "cond_termica": "166",
+        "dilatacion": "23,3",
+        "cond_electrica": "43"
+      }
+    ],
+    "cortes": [
+      {
+        "label": "chapa"
+      },
+      {
+        "label": "plancha"
+      },
+      {
+        "label": "rodillos"
+      }
+    ]
+  },
+  {
+    "title": "AW.6063",
+    "norma_un": "L-3051",
+    "data": [
+      {
+        "estado": "T-6",
+        "densidad": "2,70",
+        "rotura": "245",
+        "limite": "210",
+        "modulo": "69500",
+        "alargamiento": "14",
+        "dureza": "75",
+        "fusion": "615-655",
+        "cond_termica": "209",
+        "dilatacion": "23,5",
+        "cond_electrica": "55"
+      }
+    ],
+    "cortes": [
+      {
+        "label": "chapa"
+      },
+      {
+        "label": "plancha"
+      },
+      {
+        "label": "rodillos"
+      }
+    ]
+  },
+  {
+    "title": "AW.6082",
+    "norma_un": "L-3051",
+    "data": [
+      {
+        "estado": "T-6",
+        "densidad": "2,75",
+        "rotura": "340",
+        "limite": "260",
+        "modulo": "70000",
+        "alargamiento": "11",
+        "dureza": "95",
+        "fusion": "575-650",
+        "cond_termica": "172",
+        "dilatacion": "23,1",
+        "cond_electrica": "44"
+      }
+    ],
+    "cortes": [
+      {
+        "label": "chapa"
+      },
+      {
+        "label": "plancha"
+      },
+      {
+        "label": "rodillos"
+      }
+    ]
+  },
+  {
+    "title": "AW.7022",
+    "description": "",
+    "data": [
+      {
+        "estado": "T-651",
+        "densidad": "2,80",
+        "rotura": "410-490",
+        "limite": "350-460",
+        "modulo": "72000",
+        "alargamiento": "3-8",
+        "dureza": "110-150",
+        "fusion": "485-640",
+        "cond_termica": "13-16",
+        "dilatacion": "23,6",
+        "cond_electrica": "17-23"
+      }
+    ],
+    "cortes": [
+      {
+        "label": "chapa"
+      },
+      {
+        "label": "plancha"
+      },
+      {
+        "label": "rodillos"
+      }
+    ]
+  },
+  {
+    "title": "AW.7075",
+    "norma_un": "L-3051",
+    "data": [
+      {
+        "estado": "T-6",
+        "densidad": "2,80",
+        "rotura": "480-530",
+        "limite": "390-450",
+        "modulo": "72000",
+        "alargamiento": "2-8",
+        "dureza": "130-140",
+        "fusion": "475-635",
+        "cond_termica": "134",
+        "dilatacion": "23,5",
+        "cond_electrica": "33"
+      }
+    ],
+    "cortes": [
+      {
+        "label": "chapa"
+      },
+      {
+        "label": "plancha"
+      },
+      {
+        "label": "rodillos"
+      }
+    ]
+  },
+  {
+    "title": "AW.7050",
+    "norma_un": "L-3051",
+    "data": [
+      {
+        "estado": "T-6",
+        "densidad": "2,80",
+        "rotura": "540-600",
+        "limite": "480-530",
+        "modulo": "71000",
+        "alargamiento": "39664",
+        "dureza": "150-180",
+        "fusion": "480-640",
+        "cond_termica": "130-160",
+        "dilatacion": "23,4",
+        "cond_electrica": "19-23"
+      }
+    ],
+    "cortes": [
+      {
+        "label": "chapa"
+      },
+      {
+        "label": "plancha"
+      },
+      {
+        "label": "rodillos"
+      },
+      {
+        "label": "redondo"
+      },
+      {
+        "label": "tubo"
+      }
+    ]
+  }
+]

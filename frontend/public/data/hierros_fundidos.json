@@ -1,0 +1,322 @@
+[
+  {
+    "title": "DIN1691-GG-25",
+    "description": "Fundición gris laminar con buena resistencia mecánica, excelente amortiguación de vibraciones y buena mecanizabilidad.",
+    "suministro": "Fundido",
+    "specs": [
+      "Excelente mecanizabilidad.",
+      "Muy buena absorción de vibraciones.",
+      "Buena resistencia al desgaste.",
+      "Bancadas, cuerpos de bombas, poleas y maquinaria."
+    ],
+    "chemical": {
+      "c": [
+        "3.0",
+        "3.5"
+      ],
+      "si": [
+        "1.8",
+        "2.8"
+      ],
+      "mn": [
+        "0.5",
+        "1.0"
+      ],
+      "p": [
+        "—",
+        "0.15"
+      ],
+      "s": [
+        "—",
+        "0.12"
+      ],
+      "mg": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "espesor": [
+        "<30",
+        "30-60",
+        "60-100",
+        "100-200"
+      ],
+      "resistencia": [
+        "25",
+        "25",
+        "23",
+        "22"
+      ],
+      "limite": [
+        "—",
+        "—",
+        "—",
+        "—"
+      ],
+      "alargamiento": [
+        "—",
+        "—",
+        "—",
+        "—"
+      ],
+      "dureza": [
+        "180-240",
+        "170-230",
+        "170-220",
+        "160-220"
+      ]
+    },
+    "equivalencias": {
+      "agb": "DIN1691-GG-25",
+      "wnr": "0.6025",
+      "europa": "EN-GJL-250",
+      "espana": "FG25",
+      "alemania": "GG25",
+      "francia": "FT25",
+      "italia": "G25",
+      "usa": "ASTM A48 Class 35",
+      "japon": "FC250"
+    }
+  },
+  {
+    "title": "GG25-DIN-1963",
+    "description": "Fundición gris según antigua norma DIN 1963, equivalente a GG25, con buena resistencia mecánica y excelente comportamiento frente a vibraciones.",
+    "suministro": "Fundido",
+    "specs": [
+      "Muy buena mecanizabilidad.",
+      "Excelente amortiguación de vibraciones.",
+      "Buena estabilidad dimensional.",
+      "Bloques motor, bancadas y cuerpos de maquinaria."
+    ],
+    "chemical": {
+      "c": [
+        "3.0",
+        "3.6"
+      ],
+      "si": [
+        "1.8",
+        "2.8"
+      ],
+      "mn": [
+        "0.5",
+        "1.0"
+      ],
+      "p": [
+        "—",
+        "0.20"
+      ],
+      "s": [
+        "—",
+        "0.12"
+      ],
+      "mg": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "espesor": [
+        "<30",
+        "30-60",
+        "60-100",
+        "100-200"
+      ],
+      "resistencia": [
+        "25",
+        "25",
+        "23",
+        "22"
+      ],
+      "limite": [
+        "—",
+        "—",
+        "—",
+        "—"
+      ],
+      "alargamiento": [
+        "—",
+        "—",
+        "—",
+        "—"
+      ],
+      "dureza": [
+        "180-240",
+        "170-230",
+        "170-220",
+        "160-220"
+      ]
+    },
+    "equivalencias": {
+      "agb": "GG25-DIN-1963",
+      "wnr": "0.6025",
+      "europa": "EN-GJL-250",
+      "espana": "FG25",
+      "alemania": "GG25",
+      "francia": "FT25",
+      "italia": "G25",
+      "usa": "ASTM A48 Class 35",
+      "japon": "FC250"
+    }
+  },
+  {
+    "title": "DIN1693-GGG-50",
+    "description": "Fundición nodular de alta resistencia mecánica y buena tenacidad, con excelente comportamiento frente a fatiga y desgaste.",
+    "suministro": "Fundido",
+    "specs": [
+      "Alta resistencia mecánica y tenacidad.",
+      "Buena resistencia al desgaste y fatiga.",
+      "Excelente colabilidad y mecanización.",
+      "Engranajes, válvulas, ejes y componentes de maquinaria pesada."
+    ],
+    "chemical": {
+      "c": [
+        "3.4",
+        "3.9"
+      ],
+      "si": [
+        "2.1",
+        "2.9"
+      ],
+      "mn": [
+        "0.1",
+        "0.5"
+      ],
+      "p": [
+        "—",
+        "0.08"
+      ],
+      "s": [
+        "—",
+        "0.02"
+      ],
+      "mg": [
+        "0.03",
+        "0.06"
+      ]
+    },
+    "mechanical": {
+      "espesor": [
+        "<30",
+        "30-60",
+        "60-100",
+        "100-160"
+      ],
+      "resistencia": [
+        "50",
+        "50",
+        "48",
+        "45"
+      ],
+      "limite": [
+        "32",
+        "32",
+        "30",
+        "28"
+      ],
+      "alargamiento": [
+        "7",
+        "7",
+        "6",
+        "5"
+      ],
+      "dureza": [
+        "170-240",
+        "170-240",
+        "160-230",
+        "160-220"
+      ]
+    },
+    "equivalencias": {
+      "agb": "DIN1693-GGG-50",
+      "wnr": "0.7050",
+      "europa": "EN-GJS-500-7",
+      "espana": "FGS500",
+      "alemania": "GGG50",
+      "francia": "FGS500-7",
+      "italia": "GS500-7",
+      "usa": "ASTM A536 80-55-06",
+      "japon": "FCD500"
+    }
+  },
+  {
+    "title": "GG-60",
+    "description": "Fundición gris perlítica de alta resistencia mecánica y elevada dureza, utilizada en piezas sometidas a desgaste y cargas elevadas.",
+    "suministro": "Fundido",
+    "specs": [
+      "Alta resistencia mecánica y dureza.",
+      "Muy buena resistencia al desgaste.",
+      "Buena estabilidad dimensional.",
+      "Cilindros, bancadas, poleas, engranajes y maquinaria pesada."
+    ],
+    "chemical": {
+      "c": [
+        "2.8",
+        "3.4"
+      ],
+      "si": [
+        "1.5",
+        "2.2"
+      ],
+      "mn": [
+        "0.7",
+        "1.2"
+      ],
+      "p": [
+        "—",
+        "0.15"
+      ],
+      "s": [
+        "—",
+        "0.12"
+      ],
+      "mg": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "espesor": [
+        "<30",
+        "30-60",
+        "60-100",
+        "100-160"
+      ],
+      "resistencia": [
+        "60",
+        "58",
+        "55",
+        "52"
+      ],
+      "limite": [
+        "—",
+        "—",
+        "—",
+        "—"
+      ],
+      "alargamiento": [
+        "—",
+        "—",
+        "—",
+        "—"
+      ],
+      "dureza": [
+        "220-300",
+        "210-290",
+        "200-280",
+        "190-270"
+      ]
+    },
+    "equivalencias": {
+      "agb": "GG-60",
+      "wnr": "—",
+      "europa": "EN-GJL-600",
+      "espana": "FG60",
+      "alemania": "GG60",
+      "francia": "FT60",
+      "italia": "G60",
+      "usa": "ASTM A48 Class 60",
+      "japon": "FC600"
+    }
+  }
+]

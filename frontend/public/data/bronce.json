@@ -1,0 +1,419 @@
+[
+  {
+    "title": "W-7",
+    "description": "Bronce al estaño con ~7% de Sn, con buen equilibrio entre resistencia, desgaste y mecanizado. Destaca por su buena resistencia a la corrosión y comportamiento antifricción.",
+    "suministro": "Laminado / Colado",
+    "specs": [
+      "Exelente comportamiento antifricción y buena resistencia al desgaste",
+      "Muy buena maquinabilidad gracias al contenido en plomo",
+      "Buena resistencia a la corrosión",
+      "Cojinetes, casquillos, engranajes, válvulas y piezas de deslizamiento."
+    ],
+    "chemical": {
+      "cu": [
+        "83.0",
+        "87.0"
+      ],
+      "sn": [
+        "6.0",
+        "8.0"
+      ],
+      "zn": [
+        "3.0",
+        "5.0"
+      ],
+      "pb": [
+        "5.0",
+        "8.0"
+      ],
+      "fe": [
+        "—",
+        "0.3"
+      ],
+      "ni": [
+        "—",
+        "—"
+      ],
+      "al": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "resistencia": [
+        "20",
+        "25"
+      ],
+      "limite": [
+        "10",
+        "12"
+      ],
+      "alargamiento": [
+        "6",
+        "10"
+      ],
+      "dureza": [
+        "60",
+        "90"
+      ]
+    },
+    "equivalencias": {
+      "agb": "W-7",
+      "wnr": "2.1096",
+      "europa": "CuSn7Zn4Pb7-C",
+      "espana": "W-7",
+      "alemania": "CC493K",
+      "francia": "CuSn7ZnPb",
+      "italia": "G-CuSn7ZnPb",
+      "usa": "C93200",
+      "japon": "LBC3"
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      }
+    ]
+  },
+  {
+    "title": "W-12",
+    "description": "Bronce al estaño con mayor contenido en Sn, lo que proporciona alta resistencia al desgaste y buena capacidad de carga. Adecuado para condiciones severas de fricción.",
+    "suministro": "Colado",
+    "specs": [
+      "Alta resistencia al desgaste y buena capacidad de carga",
+      "Buen comportamiento en condiciones de fricción severa",
+      "Resistencia a la corrosión",
+      "Cojinetes, casquillos pesados, engranajes, válvulas y piezas sometidas a carga."
+    ],
+    "chemical": {
+      "cu": [
+        "84.0",
+        "88.0"
+      ],
+      "sn": [
+        "10.0",
+        "13.0"
+      ],
+      "zn": [
+        "—",
+        "1.0"
+      ],
+      "pb": [
+        "1.0",
+        "3.0"
+      ],
+      "fe": [
+        "—",
+        "0.3"
+      ],
+      "ni": [
+        "—",
+        "—"
+      ],
+      "al": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "resistencia": [
+        "25",
+        "30"
+      ],
+      "limite": [
+        "12",
+        "15"
+      ],
+      "alargamiento": [
+        "4",
+        "8"
+      ],
+      "dureza": [
+        "80",
+        "110"
+      ]
+    },
+    "equivalencias": {
+      "agb": "W-12",
+      "wnr": "2.1052",
+      "europa": "CuSn12-C",
+      "espana": "W-12",
+      "alemania": "CC483K",
+      "francia": "CuSn12",
+      "italia": "G-CuSn12",
+      "usa": "C90800",
+      "japon": "BC6"
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      }
+    ]
+  },
+  {
+    "title": "W-ALNI",
+    "description": "Bronce al aluminio con níquel y hierro, de alta resistencia mecánica y excelente comportamiento frente al desgaste y la corrosión, incluso en ambientes marinos.",
+    "suministro": "Colado",
+    "specs": [
+      "Alta resistencia mecánica y exlente resistencia al desgaste.",
+      "Muy buena resistencia a la corrosión, incluso en  agua de mar.",
+      "Buena resistencia a fatiga y cavitación.",
+      "Hélices marinas, válvulas, bombas, engranajes y componentes navales."
+    ],
+    "chemical": {
+      "cu": [
+        "76.0",
+        "82.0"
+      ],
+      "sn": [
+        "—",
+        "—"
+      ],
+      "zn": [
+        "—",
+        "—"
+      ],
+      "pb": [
+        "—",
+        "—"
+      ],
+      "fe": [
+        "3.0",
+        "5.0"
+      ],
+      "ni": [
+        "4.0",
+        "6.0"
+      ],
+      "al": [
+        "9.0",
+        "11.0"
+      ]
+    },
+    "mechanical": {
+      "resistencia": [
+        "60",
+        "75"
+      ],
+      "limite": [
+        "25",
+        "35"
+      ],
+      "alargamiento": [
+        "4.0",
+        "6.0"
+      ],
+      "dureza": [
+        "150",
+        "220"
+      ]
+    },
+    "equivalencias": {
+      "agb": "W-ALNI",
+      "wnr": "2.0975",
+      "europa": "CuAl10Fe5Ni5-C",
+      "espana": "W-ALNI",
+      "alemania": "CC333G",
+      "francia": "CuAl10Ni5Fe4",
+      "italia": "G-CuAl10Ni",
+      "usa": "C95800",
+      "japon": "CAC703"
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      }
+    ]
+  },
+  {
+    "title": "PB-10",
+    "description": "Bronce fosforado de fundición de alta resistencia, diseñado para soportar cargas pesadas y ofrecer una gran durabilidad en aplicaciones de fricción y ambientes marinos.",
+    "suministro": "Colado",
+    "specs": [
+      "Alta capacidad de carga y resistencia excepcional al desgaste.",
+      "Estructura densa con excelentes propiedades de deslizamiento.",
+      "Muy buena resistencia a la corrosión por agua salada.",
+      "Engranajes de alta carga, coronas, cojinetes de fricción y componentes de bombas."
+    ],
+    "chemical": {
+      "cu": [
+        "Resto",
+        "Resto"
+      ],
+      "sn": [
+        "10.0",
+        "11.5"
+      ],
+      "zn": [
+        "—",
+        "0.05"
+      ],
+      "pb": [
+        "—",
+        "0.25"
+      ],
+      "fe": [
+        "—",
+        "0.1"
+      ],
+      "ni": [
+        "—",
+        "0.1"
+      ],
+      "al": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "resistencia": [
+        "28.5",
+        "33.6"
+      ],
+      "limite": [
+        "15.3",
+        "18.3"
+      ],
+      "alargamiento": [
+        "6",
+        "15"
+      ],
+      "dureza": [
+        "90",
+        "120"
+      ]
+    },
+    "equivalencias": {
+      "agb": "PB-10",
+      "wnr": "",
+      "europa": "CuSn10P-C (CC481K)",
+      "espana": "PB1",
+      "alemania": "",
+      "francia": "",
+      "italia": "",
+      "usa": "C90700",
+      "japon": ""
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      }
+    ]
+  },
+  {
+    "title": "CUSN6",
+    "description": "",
+    "suministro": "",
+    "specs": [
+      ""
+    ],
+    "chemical": {
+      "cu": [
+        "Resto",
+        "Resto"
+      ],
+      "sn": [
+        "5.5",
+        "7.0"
+      ],
+      "zn": [
+        "—",
+        "0.2"
+      ],
+      "pb": [
+        "—",
+        "0.02"
+      ],
+      "fe": [
+        "—",
+        "0.1"
+      ],
+      "ni": [
+        "—",
+        "0.2"
+      ],
+      "al": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "resistencia": [
+        "42.8",
+        "53.0"
+      ],
+      "limite": [
+        "30.6",
+        "45.9"
+      ],
+      "alargamiento": [
+        "12",
+        "30"
+      ],
+      "dureza": [
+        "120",
+        "160"
+      ]
+    },
+    "equivalencias": {
+      "agb": "CUSN6",
+      "wnr": "2.1020",
+      "europa": "CW452K",
+      "espana": "CuSn6",
+      "alemania": "CuSn6",
+      "francia": "CuSn6",
+      "italia": "CuSn6",
+      "usa": "C51900",
+      "japon": ""
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      }
+    ]
+  }
+]

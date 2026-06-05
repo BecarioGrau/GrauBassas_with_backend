@@ -1,0 +1,575 @@
+{
+  "productsData": [
+    {
+      "label": "Productos",
+      "href": "/productos",
+      "page": "productos",
+      "children": [
+        {
+          "label": "Inoxidables",
+          "href": "/productos/materiales/inoxidables",
+          "children": [
+            {
+              "label": "254SMO",
+              "href": "/productos/materiales/inoxidables/254SMO"
+            },
+            {
+              "label": "1.4057",
+              "href": "/productos/materiales/inoxidables/1.4057"
+            },
+            {
+              "label": "1.4462",
+              "href": "/productos/materiales/inoxidables/1.4462"
+            },
+            {
+              "label": "1.4542",
+              "href": "/productos/materiales/inoxidables/1.4542"
+            },
+            {
+              "label": "AISI-304",
+              "href": "/productos/materiales/inoxidables/AISI-304"
+            },
+            {
+              "label": "AISI-316L",
+              "href": "/productos/materiales/inoxidables/AISI-316L"
+            },
+            {
+              "label": "1.4501",
+              "href": "/productos/materiales/inoxidables/1.4501"
+            },
+            {
+              "label": "904L",
+              "href": "/productos/materiales/inoxidables/904L"
+            },
+            {
+              "label": "A-431",
+              "href": "/productos/materiales/inoxidables/A-431"
+            },
+            {
+              "label": "AISI-310LC",
+              "href": "/productos/materiales/inoxidables/AISI-310LC"
+            },
+            {
+              "label": "AISI-446",
+              "href": "/productos/materiales/inoxidables/AISI-446"
+            }
+          ]
+        },
+        {
+          "label": "Aluminios",
+          "href": "/productos/materiales/aluminios",
+          "children": [
+            {
+              "label": "Aluminios riqueza > 99%",
+              "href": "/productos/materiales/aluminios",
+              "children": [
+                {
+                  "label": "AW.1050",
+                  "href": "/productos/materiales/aluminios/AW.1050"
+                }
+              ]
+            },
+            {
+              "label": "Aleaciones al cobre",
+              "href": "/productos/materiales/aluminios",
+              "children": [
+                {
+                  "label": "AW.2007",
+                  "href": "/productos/materiales/aluminios/AW.2007"
+                },
+                {
+                  "label": "AW.2011",
+                  "href": "/productos/materiales/aluminios/AW.2011"
+                },
+                {
+                  "label": "AW.2024",
+                  "href": "/productos/materiales/aluminios/AW.2024"
+                },
+                {
+                  "label": "AW.2030",
+                  "href": "/productos/materiales/aluminios/AW.2030"
+                },
+                {
+                  "label": "L2630",
+                  "href": "/productos/materiales/aluminios/AW.L2630"
+                },
+                {
+                  "label": "AW.5083",
+                  "href": "/productos/materiales/aluminios/AW.5083"
+                },
+                {
+                  "label": "EXT-6060",
+                  "href": "/productos/materiales/aluminios/EXT-6060"
+                },
+                {
+                  "label": "EXT-6082",
+                  "href": "/productos/materiales/aluminios/EXT-6082"
+                },
+                {
+                  "label": "AW.7050",
+                  "href": "/productos/materiales/aluminios/AW.7050"
+                },
+                {
+                  "label": "AW.7075",
+                  "href": "/productos/materiales/aluminios/AW.7075"
+                },
+                {
+                  "label": "AW.1050",
+                  "href": "/productos/materiales/aluminios/AW.1050"
+                },
+                {
+                  "label": "AW.3105",
+                  "href": "/productos/materiales/aluminios/AW.3105"
+                },
+                {
+                  "label": "AW.5083-H-111",
+                  "href": "/productos/materiales/aluminios/AW.5083-H-111"
+                },
+                {
+                  "label": "AW.5754-H-111",
+                  "href": "/productos/materiales/aluminios/AW.5754-H-111"
+                },
+                {
+                  "label": "AW.5754-H-114",
+                  "href": "/productos/materiales/aluminios/AW.5754-H-114"
+                },
+                {
+                  "label": "AW.1050-H24",
+                  "href": "/productos/materiales/aluminios/AW.1050-H24"
+                },
+                {
+                  "label": "AW.3105-H14",
+                  "href": "/productos/materiales/aluminios/AW.3105-H14"
+                },
+                {
+                  "label": "AW.3003-H16",
+                  "href": "/productos/materiales/aluminios/AW.3003-H16"
+                },
+                {
+                  "label": "AW.6082",
+                  "href": "/productos/materiales/aluminios/AW.6082"
+                },
+                {
+                  "label": "DIN2576",
+                  "href": "/productos/materiales/aluminios/DIN2576"
+                },
+                {
+                  "label": "DIN2642-PN10",
+                  "href": "/productos/materiales/aluminios/DIN2642-PN10"
+                }
+              ]
+            },
+            {
+              "label": "Aleaciones al magnesio",
+              "href": "/productos/materiales/aluminios",
+              "children": [
+                {
+                  "label": "AW.5083",
+                  "href": "/productos/materiales/aluminios/AW.5083"
+                },
+                {
+                  "label": "AW.5754",
+                  "href": "/productos/materiales/aluminios/AW.5754"
+                }
+              ]
+            },
+            {
+              "label": "Aleaciones al magnesio-silicio",
+              "href": "/productos/materiales/aluminios",
+              "children": [
+                {
+                  "label": "AW.6060",
+                  "href": "/productos/materiales/aluminios/AW.6060"
+                },
+                {
+                  "label": "AW.6061",
+                  "href": "/productos/materiales/aluminios/AW.6061"
+                },
+                {
+                  "label": "AW.6063",
+                  "href": "/productos/materiales/aluminios/AW.6063"
+                },
+                {
+                  "label": "AW.6082",
+                  "href": "/productos/materiales/aluminios/AW.6082"
+                }
+              ]
+            },
+            {
+              "label": "Aleaciones al zinc",
+              "href": "/productos/materiales/aluminios",
+              "children": [
+                {
+                  "label": "AW.7022",
+                  "href": "/productos/materiales/aluminios/AW.7022"
+                },
+                {
+                  "label": "AW.7075",
+                  "href": "/productos/materiales/aluminios/AW.7075"
+                },
+                {
+                  "label": "AW.7050",
+                  "href": "/productos/materiales/aluminios/AW.7050"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Aceros",
+          "href": "/productos/materiales/aceros",
+          "children": [
+            {
+              "label": "Macizos",
+              "href": "/productos/materiales/aceros?tab=Macizos",
+              "children": [
+                {
+                  "label": "Al Carbono",
+                  "href": "/productos/materiales/aceros?tab=Macizos#al_carbono",
+                  "children": [
+                    {
+                      "label": "F-1",
+                      "href": "/productos/materiales/aceros/F-1"
+                    },
+                    {
+                      "label": "F-1120",
+                      "href": "/productos/materiales/aceros/F-1120"
+                    },
+                    {
+                      "label": "F-1130",
+                      "href": "/productos/materiales/aceros/F-1130"
+                    },
+                    {
+                      "label": "F-1140",
+                      "href": "/productos/materiales/aceros/F-1140"
+                    },
+                    {
+                      "label": "F-1150",
+                      "href": "/productos/materiales/aceros/F-1150"
+                    },
+                    {
+                      "label": "ST52-3",
+                      "href": "/productos/materiales/aceros/ST52-3"
+                    }
+                  ]
+                },
+                {
+                  "label": "Cementación",
+                  "href": "/productos/materiales/aceros?tab=Macizos#cementacion",
+                  "children": [
+                    {
+                      "label": "F-1510",
+                      "href": "/productos/materiales/aceros/F-1510"
+                    },
+                    {
+                      "label": "F-1516",
+                      "href": "/productos/materiales/aceros/F-1516"
+                    },
+                    {
+                      "label": "F-1540",
+                      "href": "/productos/materiales/aceros/F-1540"
+                    },
+                    {
+                      "label": "F-1550",
+                      "href": "/productos/materiales/aceros/F-1550"
+                    },
+                    {
+                      "label": "F-1560",
+                      "href": "/productos/materiales/aceros/F-1560"
+                    },
+                    {
+                      "label": "F-1582",
+                      "href": "/productos/materiales/aceros/F-1582"
+                    }
+                  ]
+                },
+                {
+                  "label": "Resistencia",
+                  "href": "/productos/materiales/aceros?tab=Macizos#resistencia",
+                  "children": [
+                    {
+                      "label": "F-1252",
+                      "href": "/productos/materiales/aceros/F-1252"
+                    },
+                    {
+                      "label": "F-1272",
+                      "href": "/productos/materiales/aceros/F-1272"
+                    }
+                  ]
+                },
+                {
+                  "label": "Rodamientos",
+                  "href": "/productos/materiales/aceros?tab=Macizos#rodamientos",
+                  "children": [
+                    {
+                      "label": "F-1310",
+                      "href": "/productos/materiales/aceros/F-1310"
+                    }
+                  ]
+                },
+                {
+                  "label": "Alta elasticidad",
+                  "href": "/productos/materiales/aceros?tab=Macizos#alta_elasticidad",
+                  "children": [
+                    {
+                      "label": "F-1430",
+                      "href": "/productos/materiales/aceros/F-1430"
+                    }
+                  ]
+                },
+                {
+                  "label": "Nituración",
+                  "href": "/productos/materiales/aceros?tab=Macizos#nituracion",
+                  "children": [
+                    {
+                      "label": "F-1740",
+                      "href": "/productos/materiales/aceros/F-1740"
+                    }
+                  ]
+                },
+                {
+                  "label": "Herramientas",
+                  "href": "/productos/materiales/aceros?tab=Macizos#herramientas",
+                  "children": [
+                    {
+                      "label": "F-5211",
+                      "href": "/productos/materiales/aceros/F-5211"
+                    },
+                    {
+                      "label": "F-5229",
+                      "href": "/productos/materiales/aceros/F-5229"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Chapas",
+              "href": "/productos/materiales/aceros?tab=Chapas",
+              "children": [
+                {
+                  "label": "Al Carbono",
+                  "href": "/productos/materiales/aceros?tab=Chapas#al_carbono",
+                  "children": [
+                    {
+                      "label": "F-1140",
+                      "href": "/productos/materiales/aceros/F-1140"
+                    }
+                  ]
+                },
+                {
+                  "label": "Alta elasticidad",
+                  "href": "/productos/materiales/aceros?tab=Chapas#alta_elasticidad",
+                  "children": [
+                    {
+                      "label": "F-1430",
+                      "href": "/productos/materiales/aceros/F-1430"
+                    }
+                  ]
+                },
+                {
+                  "label": "Antidesgaste",
+                  "href": "/productos/materiales/aceros?tab=Chapas#antidesgaste",
+                  "children": [
+                    {
+                      "label": "400HB",
+                      "href": "/productos/materiales/aceros/400HB"
+                    }
+                  ]
+                },
+                {
+                  "label": "Aleado Térmico",
+                  "href": "/productos/materiales/aceros?tab=Chapas#aleado_termico",
+                  "children": [
+                    {
+                      "label": "16Mo3",
+                      "href": "/productos/materiales/aceros/16Mo3"
+                    }
+                  ]
+                },
+                {
+                  "label": "Naval",
+                  "href": "/productos/materiales/aceros?tab=Chapas#naval",
+                  "children": [
+                    {
+                      "label": "EH36",
+                      "href": "/productos/materiales/aceros/EH36"
+                    }
+                  ]
+                },
+                {
+                  "label": "Estructural",
+                  "href": "/productos/materiales/aceros?tab=Chapas#estructural",
+                  "children": [
+                    {
+                      "label": "S355J2+N",
+                      "href": "/productos/materiales/aceros/S355J2+N"
+                    },
+                    {
+                      "label": "S355K2+N",
+                      "href": "/productos/materiales/aceros/S355K2+N"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Equivalencias",
+              "href": "/productos/materiales/aceros?tab=Equivalencias"
+            }
+          ]
+        },
+        {
+          "label": "Hierros de Fundición",
+          "href": "productos/materiales/hierros_de_fundicion",
+          "children": [
+            {
+              "label": "DIN1691-GG-25",
+              "href": "/productos/materiales/hierros_de_fundicion/din1691-gg-25"
+            },
+            {
+              "label": "DIN1693-GGG-50",
+              "href": "/productos/materiales/hierros_de_fundicion/din1693-ggg-50"
+            },
+            {
+              "label": "GG-60",
+              "href": "/productos/materiales/hierros_de_fundicion/gg-60"
+            }
+          ]
+        },
+        {
+          "label": "Bronce",
+          "href": "/productos/materiales/bronce",
+          "children": [
+            { "label": "W-7", "href": "/productos/materiales/bronce/W-7" },
+            { "label": "W-12", "href": "/productos/materiales/bronce/W-12" },
+            {
+              "label": "W-ALNI",
+              "href": "/productos/materiales/bronce/W-ALNI"
+            },
+            { "label": "PB-10", "href": "/productos/materiales/bronce/PB-10" },
+            { "label": "CUSN6", "href": "/productos/materiales/bronce/CUSN6" }
+          ]
+        },
+        {
+          "label": "Latón",
+          "href": "/productos/materiales/laton",
+          "children": [
+            {
+              "label": "CuZn39PB3",
+              "href": "/productos/materiales/laton/CuZn39PB3"
+            },
+            {
+              "label": "CuZn37",
+              "href": "/productos/materiales/laton/CuZn37"
+            },
+            {
+              "label": "CuZn40PB2",
+              "href": "/productos/materiales/laton/CuZn40PB2"
+            }
+          ]
+        },
+        {
+          "label": "Cobre",
+          "href": "/productos/materiales/cobre",
+          "children": [
+            { "label": "Cu-ETP", "href": "/productos/materiales/cobre/cu-etp" },
+            { "label": "CuNi", "href": "/productos/materiales/cobre/cuni" },
+            { "label": "CuDHP", "href": "/productos/materiales/cobre/cudhP" }
+          ]
+        },
+        {
+          "label": "Zinc",
+          "href": "/productos/materiales/zinc",
+          "children": [
+            { "label": "ZG-2", "href": "/productos/materiales/zinc/zg-2" },
+            { "label": "ZG-4", "href": "/productos/materiales/zinc/zg-4" }
+          ]
+        },
+        {
+          "label": "Plásticos Mecanizados",
+          "href": "/productos/materiales/plasticos_mecanizados",
+          "children": [
+            {
+              "label": "Polimidas",
+              "href": "/productos#",
+              "children": [
+                { "label": "PA-6", "href": "#" },
+                { "label": "PA---6-MoS", "href": "#" },
+                { "label": "PA-6-G", "href": "#" },
+                { "label": "PA-6-G-Mos", "href": "#" },
+                { "label": "PA-6-G-Auto-Lubr", "href": "#" }
+              ]
+            },
+            {
+              "label": "Polietilenos",
+              "href": "/productos#",
+              "children": [
+                { "label": "PE-UMW-Lubr", "href": "#" },
+                { "label": "PE-UMW-500.000", "href": "#" },
+                { "label": "PE-UMW-6.000.000", "href": "#" }
+              ]
+            },
+            {
+              "label": "Polipropilenos",
+              "href": "/productos#",
+              "children": [{ "label": "PP", "href": "#" }]
+            },
+            {
+              "label": "Resina ACET-AL",
+              "href": "/productos#",
+              "children": [{ "label": "POM-C", "href": "#" }]
+            },
+            {
+              "label": "Polietileno. Tereftalato",
+              "href": "/productos#",
+              "children": [
+                { "label": "PETP", "href": "#" },
+                { "label": "PETP-Auto-Lubr", "href": "#" }
+              ]
+            },
+            {
+              "label": "Policloruro de vinilo",
+              "href": "/productos#",
+              "children": [{ "label": "PVC", "href": "#" }]
+            },
+            {
+              "label": "Teflón",
+              "href": "/productos#",
+              "children": [{ "label": "PTFE", "href": "#" }]
+            }
+          ]
+        },
+        {
+          "label": "Plásticos Industriales",
+          "href": "/productos/materiales/plasticos_industriales",
+          "children": [
+            { "label": "Laminados", "href": "/productos#" },
+            { "label": "Tuberías", "href": "/productos#" },
+            { "label": "Perfiles", "href": "/productos#" }
+          ]
+        },
+        {
+          "label": "Suministros",
+          "href": "/productos/materiales/suministros",
+          "children": [
+            { "label": "Laminados", "href": "/productos#" },
+            { "label": "Tuberías", "href": "/productos#" },
+            { "label": "Perfiles", "href": "/productos#" }
+          ]
+        }
+      ]
+    }
+  ],
+  "menuData": [
+    { "label": "Portada", "href": "/", "page": "index" },
+    { "label": "Servicios", "href": "/servicios", "page": "servicios" },
+    { "label": "Sobre Nosotros", "href": "/nosotros", "page": "nosotros" },
+    {
+      "label": "Calculadora de Pesos",
+      "href": "/calculadora-pesos",
+      "page": "weightCalc"
+    },
+    { "label": "Contacto", "href": "/contacto", "page": "contact" }
+  ]
+}

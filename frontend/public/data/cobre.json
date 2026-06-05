@@ -1,0 +1,227 @@
+[
+  {
+    "title": "Cu-ETP",
+    "description": "Cobre electrolítico de alta conductividad con excelente capacidad eléctrica y térmica. Muy utilizado en aplicaciones eléctricas e industriales.",
+    "suministro": "Laminado / Estirado",
+    "specs": [
+      "Muy alta conductividad eléctrica y térmica.",
+      "Excelente conformabilidad y soldabilidad.",
+      "Buena resistencia a la corrosión.",
+      "Conductores eléctricos, barras, pletinas y componentes eléctricos."
+    ],
+    "chemical": {
+      "cu": [
+        "99.90",
+        "99.99"
+      ],
+      "p": [
+        "—",
+        "0.04"
+      ],
+      "ni": [
+        "—",
+        "—"
+      ],
+      "fe": [
+        "—",
+        "0.05"
+      ],
+      "pb": [
+        "—",
+        "0.005"
+      ],
+      "zn": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "espesor": [
+        "<40",
+        "40-100",
+        ">100"
+      ],
+      "resistencia": [
+        "22-28",
+        "22-28",
+        "20-26"
+      ],
+      "limite": [
+        "6",
+        "6",
+        "5"
+      ],
+      "alargamiento": [
+        "35",
+        "35",
+        "30"
+      ],
+      "dureza": [
+        "45-75",
+        "45-75",
+        "45-70"
+      ]
+    },
+    "equivalencias": {
+      "agb": "Cu-ETP",
+      "wnr": "2.0065",
+      "europa": "CW004A",
+      "espana": "C110",
+      "alemania": "E-Cu58",
+      "francia": "Cu-a1",
+      "italia": "Cu-ETP",
+      "usa": "C11000",
+      "japon": "C1100"
+    }
+  },
+  {
+    "title": "CuNi",
+    "description": "Aleación cobre-níquel con excelente resistencia a la corrosión marina y buena resistencia mecánica. Muy utilizada en ambientes navales y químicos.",
+    "suministro": "Laminado / Estirado",
+    "specs": [
+      "Excelente resistencia al agua de mar.",
+      "Buena resistencia mecánica y térmica.",
+      "Muy buena resistencia a la corrosión.",
+      "Tuberías marinas, intercambiadores y condensadores."
+    ],
+    "chemical": {
+      "cu": [
+        "86.0",
+        "89.0"
+      ],
+      "ni": [
+        "9.0",
+        "11.0"
+      ],
+      "fe": [
+        "1.0",
+        "1.8"
+      ],
+      "mn": [
+        "0.5",
+        "1.0"
+      ],
+      "pb": [
+        "—",
+        "—"
+      ],
+      "zn": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "espesor": [
+        "<40",
+        "40-100",
+        ">100"
+      ],
+      "resistencia": [
+        "35-45",
+        "35-45",
+        "32-42"
+      ],
+      "limite": [
+        "12",
+        "12",
+        "10"
+      ],
+      "alargamiento": [
+        "30",
+        "30",
+        "25"
+      ],
+      "dureza": [
+        "90-130",
+        "90-130",
+        "85-125"
+      ]
+    },
+    "equivalencias": {
+      "agb": "CuNi",
+      "wnr": "2.0872",
+      "europa": "CuNi10Fe1Mn",
+      "espana": "CuNi10",
+      "alemania": "CuNi10Fe",
+      "francia": "CuNi10Fe",
+      "italia": "CuNi10Fe1Mn",
+      "usa": "C70600",
+      "japon": "C7060"
+    }
+  },
+  {
+    "title": "CuDHP",
+    "description": "Cobre desoxidado con fósforo de alta pureza, con buena soldabilidad y resistencia a la corrosión. Muy utilizado en instalaciones térmicas y tuberías.",
+    "suministro": "Laminado / Estirado / Recocido",
+    "specs": [
+      "Excelente soldabilidad y conformabilidad.",
+      "Buena resistencia a la corrosión.",
+      "Alta conductividad térmica.",
+      "Tuberías, intercambiadores, instalaciones térmicas y gas."
+    ],
+    "chemical": {
+      "cu": [
+        "99.90",
+        "99.99"
+      ],
+      "p": [
+        "0.015",
+        "0.040"
+      ],
+      "ni": [
+        "—",
+        "—"
+      ],
+      "fe": [
+        "—",
+        "0.05"
+      ],
+      "pb": [
+        "—",
+        "0.005"
+      ],
+      "zn": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "espesor": [
+        "<40",
+        "40-100",
+        ">100"
+      ],
+      "resistencia": [
+        "22-30",
+        "22-30",
+        "20-28"
+      ],
+      "limite": [
+        "6",
+        "6",
+        "5"
+      ],
+      "alargamiento": [
+        "35",
+        "35",
+        "30"
+      ],
+      "dureza": [
+        "40-75",
+        "40-75",
+        "40-70"
+      ]
+    },
+    "equivalencias": {
+      "agb": "CuDHP",
+      "wnr": "2.0090",
+      "europa": "CW024A",
+      "espana": "Cu-DHP",
+      "alemania": "SF-Cu",
+      "francia": "Cu-DHP",
+      "italia": "Cu-DHP",
+      "usa": "C12200",
+      "japon": "C12200"
+    }
+  }
+]

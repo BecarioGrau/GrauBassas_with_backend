@@ -1,0 +1,54 @@
+{
+  "plantilla_universal": {
+    "sections": [
+      {
+        "title": "Composición Química %",
+        "columns": [
+          { "header": "C", "key": "c" },
+          { "header": "Mn", "key": "mn" },
+          { "header": "Si", "key": "si" },
+          { "header": "Cr", "key": "cr" },
+          { "header": "Ni", "key": "ni" },
+          { "header": "Mo", "key": "mo" },
+          { "header": "V", "key": "v" },
+          { "header": "Cu", "key": "cu" },
+          { "header": "Sn", "key": "sn" },
+          { "header": "Zn", "key": "zn" },
+          { "header": "Pb", "key": "pb" },
+          { "header": "Fe", "key": "fe" },
+          { "header": "Al", "key": "al" },
+          { "header": "Mg", "key": "mg" },
+          { "header": "P", "key": "p" },
+          { "header": "S", "key": "s" }
+        ],
+        "dataSource": "chemical"
+      },
+      {
+        "title": "Propiedades Mecánicas",
+        "columns": [
+          { "header": "Espesor / Estado / Diámetro mm", "key": "espesor" },
+          { "header": "Resistencia (Rm Kg/mm2)", "key": "resistencia" },
+          { "header": "Límite Elástico (Re Kg/mm2)", "key": "limite" },
+          { "header": "Alargamiento %", "key": "alargamiento" },
+          { "header": "Dureza HB", "key": "dureza" }
+        ],
+        "dataSource": "mechanical"
+      },
+      {
+        "title": "Equivalencias",
+        "columns": [
+          { "header": "AGB", "key": "agb" },
+          { "header": "W.-Nr.", "key": "wnr" },
+          { "header": "Europa EN", "key": "europa" },
+          { "header": "España UNE", "key": "espana" },
+          { "header": "Alemania DIN", "key": "alemania" },
+          { "header": "Francia NF", "key": "francia" },
+          { "header": "Italia UNI", "key": "italia" },
+          { "header": "Usa ASI/SAE", "key": "usa" },
+          { "header": "Japón", "key": "japon" }
+        ],
+        "dataSource": "equivalencias"
+      }
+    ]
+  }
+}

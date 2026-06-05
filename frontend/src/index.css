@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #9e1b32;
+  --color-primary-dark: #7a1223;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@layer base {
+  html,
+  body {
+    @apply overflow-x-hidden w-full;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@layer components {
+  .animate-marquee {
+    animation: marquee linear infinite;
+  }
+
+  .ficha-th {
+    @apply border border-black p-1 uppercase font-black;
+  }
+
+  .ficha-td {
+    @apply border border-black p-2;
+  }
+
+  .ficha-section-title {
+    @apply text-sm font-black uppercase border-b-2 border-black mb-4 inline-block;
+  }
+
+  .hover-diagonal-bg {
+    @apply relative
+      z-10
+      transition-all
+      duration-300
+      before:content-['']
+      before:absolute
+      before:inset-0
+      before:bg-primary-dark
+      before:origin-left
+      before:scale-x-0
+      hover:before:scale-x-100
+      before:transition-transform
+      before:duration-300
+      before:-z-10;
+  }
+  .h2-aviso-legal {
+    @apply text-2xl font-bold;
+  }
+  .p-aviso-legal {
+    @apply text-justify my-4;
+  }
+  .h2-about-us {
+    @apply flex items-center gap-3 text-xl font-bold text-white bg-primary py-3 px-4 rounded-t-lg;
+  }
+  ::selection {
+    @apply bg-primary text-white;
+  }
+}
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  .printable-modal-container {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    transform: none !important;
+    width: 100% !important;
+    max-width: none !important;
+    height: auto !important;
+    max-height: none !important;
+    visibility: visible !important;
+    display: block !important;
+    box-shadow: none !important;
+  }
+
+  #printable-area,
+  #printable-area * {
+    visibility: visible !important;
+  }
+
+  #printable-area {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    padding: 1.5cm !important;
+  }
+
+  .print\:hidden,
+  button,
+  .sticky,
+  .fixed.inset-0 {
+    display: none !important;
+  }
+
+  @page {
+    size: A4;
+    margin: 0;
+  }
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}

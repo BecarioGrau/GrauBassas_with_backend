@@ -1,0 +1,909 @@
+[
+  {
+    "title": "254SMO",
+    "description": "Acero inoxidable austenítico de alta aleación con elevado contenido en molibdeno, diseñado para ambientes altamente corrosivos. Destaca por su excelente resistencia a picaduras y corrosión por cloruros.",
+    "suministro": "Laminado / Recocido",
+    "specs": [
+      ""
+    ],
+    "chemical": {
+      "c": [
+        "—",
+        "0.02"
+      ],
+      "cr": [
+        "19.5",
+        "20.5"
+      ],
+      "ni": [
+        "17.5",
+        "18.5"
+      ],
+      "mo": [
+        "6.0",
+        "6.5"
+      ],
+      "mn": [
+        "—",
+        "1.0"
+      ],
+      "si": [
+        "—",
+        "0.8"
+      ]
+    },
+    "mechanical": {
+      "diametro": [
+        "<50",
+        "50-100",
+        ">100"
+      ],
+      "resistencia": [
+        "65-85",
+        "65-85",
+        "65-85"
+      ],
+      "limite": [
+        "30",
+        "30",
+        "30"
+      ],
+      "alargamiento": [
+        "35",
+        "35",
+        "35"
+      ],
+      "dureza": [
+        "180-220",
+        "180-220",
+        "180-220"
+      ]
+    },
+    "equivalencias": {
+      "agb": "254SMO",
+      "wnr": "1.4547",
+      "europa": "X1CrNiMoCuN20-18-7",
+      "espana": "254SMO",
+      "alemania": "1.4547",
+      "francia": "Z1CNDU20-18-7",
+      "italia": "X1CrNiMoCuN20-18-7",
+      "usa": "UNS S31254",
+      "japon": "—"
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      }
+    ]
+  },
+  {
+    "title": "1.4057",
+    "description": "Acero inoxidable martensítico con buena resistencia mecánica y moderada resistencia a la corrosión. Puede endurecerse mediante tratamiento térmico.",
+    "suministro": "Templado y Revenido / Recocido",
+    "specs": [
+      "Alta resistencia mecánica y buena tenacidad.",
+      "Resistencia a la corrosión moderada.",
+      "Admite tratamiento térmico.",
+      "Ejes, válvulas, tornillería y componentes mecánicos."
+    ],
+    "chemical": {
+      "c": [
+        "0.15",
+        "0.20"
+      ],
+      "cr": [
+        "15.0",
+        "17.0"
+      ],
+      "ni": [
+        "1.5",
+        "2.5"
+      ],
+      "mo": [
+        "—",
+        "—"
+      ],
+      "mn": [
+        "—",
+        "1.5"
+      ],
+      "si": [
+        "—",
+        "1.0"
+      ]
+    },
+    "mechanical": {
+      "diametro": [
+        "<16",
+        "16-40",
+        "40-100"
+      ],
+      "resistencia": [
+        "75-95",
+        "70-90",
+        "65-85"
+      ],
+      "limite": [
+        "55",
+        "50",
+        "45"
+      ],
+      "alargamiento": [
+        "12",
+        "12",
+        "10"
+      ],
+      "dureza": [
+        "220-300",
+        "220-300",
+        "220-300"
+      ]
+    },
+    "equivalencias": {
+      "agb": "1.4057",
+      "wnr": "1.4057",
+      "europa": "X17CrNi16-2",
+      "espana": "F-3407",
+      "alemania": "X17CrNi16-2",
+      "francia": "Z15CN16-02",
+      "italia": "X17CrNi16-2",
+      "usa": "AISI 431",
+      "japon": "SUS431"
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      }
+    ]
+  },
+  {
+    "title": "1.4462",
+    "description": "Acero inoxidable dúplex con alta resistencia mecánica y excelente resistencia a la corrosión. Combina propiedades de aceros ferríticos y austeníticos.",
+    "suministro": "Laminado / Recocido",
+    "specs": [
+      "Alta resistencia mecánica y a la corrosión.",
+      "Excelente comportamiento frente a cloruros.",
+      "Buena soldabilidad.",
+      "Industria química, petróleo, gas y offshore."
+    ],
+    "chemical": {
+      "c": [
+        "—",
+        "0.03"
+      ],
+      "cr": [
+        "21.0",
+        "23.0"
+      ],
+      "ni": [
+        "4.5",
+        "6.5"
+      ],
+      "mo": [
+        "2.5",
+        "3.5"
+      ],
+      "mn": [
+        "—",
+        "2.0"
+      ],
+      "si": [
+        "—",
+        "1.0"
+      ]
+    },
+    "mechanical": {
+      "espesor": [
+        "<16",
+        "16-40",
+        "40-100",
+        "100-160"
+      ],
+      "resistencia": [
+        "65-90",
+        "65-90",
+        "65-90",
+        "65-90"
+      ],
+      "limite": [
+        "45",
+        "45",
+        "45",
+        "45"
+      ],
+      "alargamiento": [
+        "25",
+        "25",
+        "25",
+        "25"
+      ],
+      "dureza": [
+        "200-280",
+        "200-280",
+        "200-280",
+        "200-280"
+      ]
+    },
+    "equivalencias": {
+      "agb": "1.4462",
+      "wnr": "1.4462",
+      "europa": "X2CrNiMoN22-5-3",
+      "espana": "F-3527",
+      "alemania": "1.4462",
+      "francia": "Z2CND22-05-03",
+      "italia": "X2CrNiMoN22-5-3",
+      "usa": "UNS S32205 / S31803",
+      "japon": "SUS329J3L"
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      }
+    ]
+  },
+  {
+    "title": "1.4542",
+    "description": "Acero inoxidable martensítico endurecible por precipitación (17-4PH), con alta resistencia mecánica y buena resistencia a la corrosión.",
+    "suministro": "Solubilizado / Envejecido (H900, H1025, etc.)",
+    "specs": [
+      "Muy alta resistencia mecánica.",
+      "Buena resistencia a la corrosión.",
+      "Endurecible por precipitación.",
+      "Aeroespacial, ejes, válvulas, industria química y energética."
+    ],
+    "chemical": {
+      "c": [
+        "—",
+        "0.07"
+      ],
+      "cr": [
+        "15.0",
+        "17.5"
+      ],
+      "ni": [
+        "3.0",
+        "5.0"
+      ],
+      "mo": [
+        "—",
+        "—"
+      ],
+      "mn": [
+        "—",
+        "1.0"
+      ],
+      "si": [
+        "—",
+        "1.0"
+      ]
+    },
+    "mechanical": {
+      "espesor": [
+        "<16",
+        "16-40",
+        "40-100"
+      ],
+      "resistencia": [
+        "100-130",
+        "95-125",
+        "90-120"
+      ],
+      "limite": [
+        "85",
+        "80",
+        "75"
+      ],
+      "alargamiento": [
+        "10",
+        "10",
+        "9"
+      ],
+      "dureza": [
+        "300-380",
+        "300-380",
+        "300-380"
+      ]
+    },
+    "equivalencias": {
+      "agb": "1.4542",
+      "wnr": "1.4542",
+      "europa": "X5CrNiCuNb16-4",
+      "espana": "F-3507",
+      "alemania": "1.4542",
+      "francia": "Z6CNU17-04",
+      "italia": "X5CrNiCuNb16-4",
+      "usa": "AISI 630 / UNS S17400",
+      "japon": "SUS630"
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      }
+    ]
+  },
+  {
+    "title": "AISI-304",
+    "description": "Acero inoxidable austenítico de uso general con excelente resistencia a la corrosión y buena conformabilidad. Es el más utilizado en aplicaciones industriales.",
+    "suministro": "Laminado / Recocido",
+    "specs": [
+      "Excelente resistencia a la corrosión en ambientes generales.",
+      "Muy buena conformabilidad y soldabilidad.",
+      "No templable por tratamiento térmico.",
+      "Uso en alimentación, construcción, decoración y maquinaria."
+    ],
+    "chemical": {
+      "c": [
+        "—",
+        "0.07"
+      ],
+      "cr": [
+        "17.5",
+        "19.5"
+      ],
+      "ni": [
+        "8.0",
+        "10.5"
+      ],
+      "mo": [
+        "—",
+        "—"
+      ],
+      "mn": [
+        "—",
+        "2.0"
+      ],
+      "si": [
+        "—",
+        "1.0"
+      ]
+    },
+    "mechanical": {
+      "espesor": [
+        "<16",
+        "16-40",
+        "40-100",
+        "100-160"
+      ],
+      "resistencia": [
+        "50-70",
+        "50-70",
+        "50-70",
+        "50-70"
+      ],
+      "limite": [
+        "20",
+        "20",
+        "20",
+        "20"
+      ],
+      "alargamiento": [
+        "45",
+        "45",
+        "45",
+        "45"
+      ],
+      "dureza": [
+        "150-200",
+        "150-200",
+        "150-200",
+        "150-200"
+      ]
+    },
+    "equivalencias": {
+      "agb": "AISI 304",
+      "wnr": "1.4301",
+      "europa": "X5CrNi18-10",
+      "espana": "F-3504",
+      "alemania": "1.4301",
+      "francia": "Z6CN18-09",
+      "italia": "X5CrNi18-10",
+      "usa": "AISI 304",
+      "japon": "SUS304"
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      }
+    ]
+  },
+  {
+    "title": "AISI-316",
+    "description": "Acero inoxidable austenítico con molibdeno y bajo carbono, con excelente resistencia a la corrosión, especialmente en ambientes agresivos.",
+    "suministro": "Laminado / Recocido",
+    "specs": [
+      "Alta resistencia a la corrosión y a cloruros.",
+      "Bajo carbono (L) evita corrosión intergranular.",
+      "Muy buena soldabilidad.",
+      "Industria química, alimentaria, marina y farmacéutica."
+    ],
+    "chemical": {
+      "c": [
+        "—",
+        "0.03"
+      ],
+      "cr": [
+        "16.5",
+        "18.5"
+      ],
+      "ni": [
+        "10.0",
+        "13.0"
+      ],
+      "mo": [
+        "2.0",
+        "2.5"
+      ],
+      "mn": [
+        "—",
+        "2.0"
+      ],
+      "si": [
+        "—",
+        "1.0"
+      ]
+    },
+    "mechanical": {
+      "espesor": [
+        "<16",
+        "16-40",
+        "40-100",
+        "100-160"
+      ],
+      "resistencia": [
+        "50-70",
+        "50-70",
+        "50-70",
+        "50-70"
+      ],
+      "limite": [
+        "20",
+        "20",
+        "20",
+        "20"
+      ],
+      "alargamiento": [
+        "40",
+        "40",
+        "40",
+        "40"
+      ],
+      "dureza": [
+        "150-200",
+        "150-200",
+        "150-200",
+        "150-200"
+      ]
+    },
+    "equivalencias": {
+      "agb": "1.4404",
+      "wnr": "1.4404",
+      "europa": "X2CrNiMo17-12-2",
+      "espana": "F-3543",
+      "alemania": "1.4404",
+      "francia": "Z2CND17-12",
+      "italia": "X2CrNiMo17-12-2",
+      "usa": "AISI 316L",
+      "japon": "SUS316L"
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      }
+    ]
+  },
+  {
+    "title": "1.4501",
+    "description": "Acero inoxidable superdúplex con muy alta resistencia mecánica y excelente resistencia a la corrosión en ambientes extremadamente agresivos.",
+    "suministro": "Laminado / Recocido",
+    "specs": [
+      "Muy alta resistencia mecánica.",
+      "Excelente resistencia a picaduras y corrosión por cloruros.",
+      "Alta resistencia a fatiga y corrosión bajo tensión.",
+      "Oil & gas, offshore, industria química y marina."
+    ],
+    "chemical": {
+      "c": [
+        "—",
+        "0.03"
+      ],
+      "cr": [
+        "24.0",
+        "26.0"
+      ],
+      "ni": [
+        "6.0",
+        "8.0"
+      ],
+      "mo": [
+        "3.0",
+        "4.0"
+      ],
+      "mn": [
+        "—",
+        "1.0"
+      ],
+      "si": [
+        "—",
+        "1.0"
+      ]
+    },
+    "mechanical": {
+      "espesor": [
+        "<16",
+        "16-40",
+        "40-100",
+        "100-160"
+      ],
+      "resistencia": [
+        "75-95",
+        "75-95",
+        "75-95",
+        "75-95"
+      ],
+      "limite": [
+        "55",
+        "55",
+        "55",
+        "55"
+      ],
+      "alargamiento": [
+        "25",
+        "25",
+        "25",
+        "25"
+      ],
+      "dureza": [
+        "250-320",
+        "250-320",
+        "250-320",
+        "250-320"
+      ]
+    },
+    "equivalencias": {
+      "agb": "1.4501",
+      "wnr": "1.4501",
+      "europa": "X2CrNiMoCuWN25-7-4",
+      "espana": "F-3538",
+      "alemania": "1.4501",
+      "francia": "Z2CND25-07",
+      "italia": "X2CrNiMoCuWN25-7-4",
+      "usa": "UNS S32760",
+      "japon": "—"
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      }
+    ]
+  },
+  {
+    "title": "904L",
+    "description": "Acero inoxidable austenítico superaleado con muy alta resistencia a la corrosión en ambientes ácidos y con cloruros.",
+    "suministro": "Laminado / Recocido",
+    "specs": [
+      "Excelente resistencia a la corrosión química.",
+      "Muy buena resistencia a ácidos sulfúrico y fosfórico.",
+      "Alta resistencia a picaduras y cloruros.",
+      "Industria química, offshore, farmacéutica y petroquímica."
+    ],
+    "chemical": {
+      "c": [
+        "—",
+        "0.02"
+      ],
+      "cr": [
+        "19.0",
+        "23.0"
+      ],
+      "ni": [
+        "23.0",
+        "28.0"
+      ],
+      "mo": [
+        "4.0",
+        "5.0"
+      ],
+      "mn": [
+        "—",
+        "2.0"
+      ],
+      "si": [
+        "—",
+        "1.0"
+      ]
+    },
+    "mechanical": {
+      "espesor": [
+        "<16",
+        "16-40",
+        "40-100"
+      ],
+      "resistencia": [
+        "49-69",
+        "49-69",
+        "49-69"
+      ],
+      "limite": [
+        "22",
+        "22",
+        "22"
+      ],
+      "alargamiento": [
+        "35",
+        "35",
+        "35"
+      ],
+      "dureza": [
+        "150-220",
+        "150-220",
+        "150-220"
+      ]
+    },
+    "equivalencias": {
+      "agb": "904L",
+      "wnr": "1.4539",
+      "europa": "X1NiCrMoCu25-20-5",
+      "espana": "F-3571",
+      "alemania": "1.4539",
+      "francia": "Z2NCDU25-20",
+      "italia": "X1NiCrMoCu25-20-5",
+      "usa": "UNS N08904",
+      "japon": "SUS890L"
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      }
+    ]
+  },
+  {
+    "title": "AISI-310LC",
+    "description": "Acero inoxidable austenítico resistente a altas temperaturas y oxidación, diseñado para servicio continuo en ambientes térmicos severos.",
+    "suministro": "Laminado / Recocido",
+    "specs": [
+      "Excelente resistencia a oxidación y calor.",
+      "Muy buena resistencia a altas temperaturas.",
+      "Buena resistencia a la corrosión.",
+      "Hornos, intercambiadores, calderería y petroquímica."
+    ],
+    "chemical": {
+      "c": [
+        "—",
+        "0.03"
+      ],
+      "cr": [
+        "24.0",
+        "26.0"
+      ],
+      "ni": [
+        "19.0",
+        "22.0"
+      ],
+      "mo": [
+        "—",
+        "—"
+      ],
+      "mn": [
+        "—",
+        "2.0"
+      ],
+      "si": [
+        "—",
+        "1.5"
+      ]
+    },
+    "mechanical": {
+      "espesor": [
+        "<16",
+        "16-40",
+        "40-100"
+      ],
+      "resistencia": [
+        "52-75",
+        "52-75",
+        "50-72"
+      ],
+      "limite": [
+        "21",
+        "21",
+        "20"
+      ],
+      "alargamiento": [
+        "40",
+        "40",
+        "40"
+      ],
+      "dureza": [
+        "150-220",
+        "150-220",
+        "150-220"
+      ]
+    },
+    "equivalencias": {
+      "agb": "AISI-310LC",
+      "wnr": "1.4845",
+      "europa": "X8CrNi25-21",
+      "espana": "F-3535",
+      "alemania": "1.4845",
+      "francia": "Z8CN25-20",
+      "italia": "X8CrNi25-21",
+      "usa": "AISI 310L",
+      "japon": "SUS310S"
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      }
+    ]
+  },
+  {
+    "title": "AISI-446",
+    "description": "Acero inoxidable ferrítico con muy alta resistencia a la oxidación y a temperaturas elevadas. Especialmente indicado para servicio térmico continuo.",
+    "suministro": "Laminado / Recocido",
+    "specs": [
+      "Excelente resistencia a oxidación a alta temperatura.",
+      "Muy buena resistencia a atmósferas sulfurosas.",
+      "Alta resistencia al calor y corrosión.",
+      "Hornos industriales, quemadores, intercambiadores y petroquímica."
+    ],
+    "chemical": {
+      "c": [
+        "—",
+        "0.20"
+      ],
+      "cr": [
+        "23.0",
+        "27.0"
+      ],
+      "ni": [
+        "—",
+        "0.75"
+      ],
+      "mo": [
+        "—",
+        "—"
+      ],
+      "mn": [
+        "—",
+        "1.5"
+      ],
+      "si": [
+        "—",
+        "1.5"
+      ]
+    },
+    "mechanical": {
+      "espesor": [
+        "<16",
+        "16-40",
+        "40-100"
+      ],
+      "resistencia": [
+        "55-75",
+        "55-75",
+        "52-72"
+      ],
+      "limite": [
+        "28",
+        "28",
+        "26"
+      ],
+      "alargamiento": [
+        "20",
+        "20",
+        "18"
+      ],
+      "dureza": [
+        "180-240",
+        "180-240",
+        "180-240"
+      ]
+    },
+    "equivalencias": {
+      "agb": "AISI-446",
+      "wnr": "1.4762",
+      "europa": "X10CrAl24",
+      "espana": "F-3486",
+      "alemania": "1.4762",
+      "francia": "Z10CA24",
+      "italia": "X10CrAl24",
+      "usa": "AISI 446",
+      "japon": "SUS446"
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      }
+    ]
+  }
+]

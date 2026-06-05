@@ -1,0 +1,132 @@
+[
+  {
+    "title": "ZG-2",
+    "description": "Aleación de zinc tipo Zamak 2 con alta resistencia mecánica y dureza. Muy utilizada en fundición a presión para piezas técnicas y componentes de precisión.",
+    "suministro": "Fundido a presión",
+    "specs": [
+      "Alta resistencia mecánica y dureza.",
+      "Excelente capacidad de fundición.",
+      "Buena resistencia al desgaste.",
+      "Carcasas, herrajes, automoción y piezas técnicas."
+    ],
+    "chemical": {
+      "zn": [
+        "92.0",
+        "95.0"
+      ],
+      "al": [
+        "3.8",
+        "4.3"
+      ],
+      "cu": [
+        "2.5",
+        "3.3"
+      ],
+      "mg": [
+        "0.02",
+        "0.06"
+      ],
+      "fe": [
+        "—",
+        "0.10"
+      ],
+      "pb": [
+        "—",
+        "0.005"
+      ]
+    },
+    "mechanical": {
+      "espesor": [
+        "Fundición"
+      ],
+      "resistencia": [
+        "36-40"
+      ],
+      "limite": [
+        "28-32"
+      ],
+      "alargamiento": [
+        "3-6"
+      ],
+      "dureza": [
+        "100-130"
+      ]
+    },
+    "equivalencias": {
+      "agb": "ZG-2",
+      "wnr": "—",
+      "europa": "ZnAl4Cu3",
+      "espana": "ZG-2",
+      "alemania": "Zamak 2",
+      "francia": "Zamak 2",
+      "italia": "ZL0430",
+      "usa": "ASTM AC43A",
+      "japon": "ZDC2"
+    }
+  },
+  {
+    "title": "ZG-4",
+    "description": "Aleación de zinc tipo Zamak 4 con buena estabilidad dimensional y excelente fluidez para fundición a presión.",
+    "suministro": "Fundido a presión",
+    "specs": [
+      "Excelente comportamiento en fundición.",
+      "Buena estabilidad dimensional.",
+      "Buena resistencia mecánica.",
+      "Componentes decorativos, carcasas y herrajes."
+    ],
+    "chemical": {
+      "zn": [
+        "95.0",
+        "96.5"
+      ],
+      "al": [
+        "3.8",
+        "4.3"
+      ],
+      "cu": [
+        "—",
+        "0.25"
+      ],
+      "mg": [
+        "0.01",
+        "0.05"
+      ],
+      "fe": [
+        "—",
+        "0.10"
+      ],
+      "pb": [
+        "—",
+        "0.005"
+      ]
+    },
+    "mechanical": {
+      "espesor": [
+        "Fundición"
+      ],
+      "resistencia": [
+        "28-32"
+      ],
+      "limite": [
+        "22-25"
+      ],
+      "alargamiento": [
+        "7-10"
+      ],
+      "dureza": [
+        "80-100"
+      ]
+    },
+    "equivalencias": {
+      "agb": "ZG-4",
+      "wnr": "—",
+      "europa": "ZnAl4",
+      "espana": "ZG-4",
+      "alemania": "Zamak 4",
+      "francia": "Zamak 4",
+      "italia": "ZL0410",
+      "usa": "ASTM AG40A",
+      "japon": "ZDC1"
+    }
+  }
+]

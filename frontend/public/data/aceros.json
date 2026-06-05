@@ -1,0 +1,2578 @@
+[
+  {
+    "title": "F-1",
+    "description": "La calidad de acero F-1 pertenece a los aceros estructurales al carbono de bajo contenido en carbono. Se caracteriza por su buena soldabilidad, ductilidad y facilidad de conformado y mecanizado. Se utiliza habitualmente en estructuras metálicas, perfiles, chapas y componentes de maquinaria donde se requiere resistencia mecánica moderada.",
+    "suministro": "Calibrado (Estirado, Torneado)",
+    "specs": [
+      "Admite bien la soldadura ys e puede cementar.",
+      "Para pieza que tenga una buena tenacidad y poca resistencia.",
+      "Pieza de base no aleado de uso general.",
+      "Clavos, alambres, piezas para embuticion en frio, plegadora, herrajes"
+    ],
+    "chemical": {
+      "c": [
+        "0.10",
+        "0.18"
+      ],
+      "mn": [
+        "0.40",
+        "0.90"
+      ],
+      "si": [
+        "0.15",
+        "0.40"
+      ],
+      "cr": [
+        "—",
+        "—"
+      ],
+      "ni": [
+        "—",
+        "—"
+      ],
+      "mo": [
+        "—",
+        "—"
+      ],
+      "v": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "diametro": [
+        "< 16",
+        "16/40",
+        "40/100",
+        "100/160"
+      ],
+      "resistencia": [
+        "40 / 60",
+        "39 / 59",
+        "39 / 59",
+        "38 / 49"
+      ],
+      "limite": [
+        "23",
+        "22",
+        "22",
+        "21"
+      ],
+      "alargamiento": [
+        "24",
+        "25",
+        "25",
+        "26"
+      ],
+      "dureza": [
+        "—",
+        "—",
+        "—",
+        "—"
+      ]
+    },
+    "equivalencias": {
+      "agb": "F-1",
+      "wnr": "1.1141",
+      "europa": "C16R",
+      "espana": "F-1",
+      "alemania": "CK-15",
+      "francia": "XC18",
+      "italia": "C16",
+      "usa": "SAE 1018",
+      "japon": "—"
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      }
+    ],
+    "gama_medidas": {
+      "Laminados y Forjados": {
+        "Redondos": "16-100 mm",
+        "Cuadrados": "20-170 mm"
+      },
+      "Calibrados (h11)": {
+        "Redondos": "2-130 mm",
+        "Cuadrados": "3-100 mm",
+        "Hexagonal": "5-70 mm"
+      }
+    }
+  },
+  {
+    "title": "F-1120",
+    "description": "El acero F-1120 es un acero al carbono con mayor contenido de carbono que el F-1110, lo que permite aplicarle tratamientos térmicos como templado y revenido. Presenta buena soldabilidad y buena capacidad de embutición y plegado, por lo que se utiliza en la fabricación de piezas de maquinaria, tornillos, tuercas y bridas.",
+    "suministro": "Normalizado",
+    "specs": [
+      "Admite bien la soldadura.",
+      "Acreo para piezas que deban tener buena tenacidad y resistencia al coque, con una resistencia a la tracción no muy elevada.",
+      "Piezas de maquinarai diversas, bulones, clavos, cadenas, tornillos."
+    ],
+    "chemical": {
+      "c": [
+        "0.20",
+        "0.30"
+      ],
+      "mn": [
+        "0.50",
+        "0.80"
+      ],
+      "si": [
+        "0.15",
+        "0.40"
+      ],
+      "cr": [
+        "—",
+        "—"
+      ],
+      "ni": [
+        "—",
+        "—"
+      ],
+      "mo": [
+        "—",
+        "—"
+      ],
+      "v": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "diametro": [
+        "/16",
+        "16/40",
+        "40/100",
+        "100/160",
+        "160"
+      ],
+      "resistencia": [
+        "45 / 65",
+        "42 / 62",
+        "42 / 62",
+        "46 / 56",
+        "45 / 55"
+      ],
+      "limite": [
+        "25",
+        "23",
+        "23",
+        "25",
+        "24"
+      ],
+      "alargamiento": [
+        "23",
+        "24",
+        "24",
+        "23",
+        "22"
+      ],
+      "dureza": [
+        "140 / 200",
+        "140 / 200",
+        "140 / 200",
+        "140 / 200",
+        "140 / 200"
+      ]
+    },
+    "equivalencias": {
+      "agb": "F-112",
+      "wnr": "1.1158",
+      "europa": "C25E",
+      "espana": "F-1120",
+      "alemania": "Ck25",
+      "francia": "XC25",
+      "italia": "C25",
+      "usa": "SAE 1026",
+      "japon": "S25C"
+    },
+    "cortes": [
+      {
+        "label": "Hexágono",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Redondo",
+        "href": "#"
+      }
+    ],
+    "gama_medidas": {
+      "Laminados y Forjados": {
+        "Redondos": "16-100 mm",
+        "Palanquilla": "40-120 mm"
+      }
+    }
+  },
+  {
+    "title": "F-1130",
+    "description": "El acero F-1130 es un acero al carbono de resistencia media, con un contenido de carbono aproximado del 0,30–0,40 %. Ofrece un buen equilibrio entre resistencia y tenacidad, y admite tratamientos térmicos como temple y revenido. Se utiliza en piezas de maquinaria y componentes mecánicos sometidos a esfuerzos moderados.",
+    "suministro": "Normalizado",
+    "specs": [
+      "Acero para temple y recocido de usos generales, de buena soldabilidad para elementos de maquinaria que deban presentar bunea tenacidad"
+    ],
+    "chemical": {
+      "c": [
+        "0.30",
+        "0.40"
+      ],
+      "mn": [
+        "0.50",
+        "0.80"
+      ],
+      "si": [
+        "0.10",
+        "0.20"
+      ],
+      "cr": [
+        "—",
+        "—"
+      ],
+      "ni": [
+        "—",
+        "—"
+      ],
+      "mo": [
+        "—",
+        "—"
+      ],
+      "v": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "diametro": [
+        "/16",
+        "16/40",
+        "40/100",
+        "100/160",
+        "160"
+      ],
+      "resistencia": [
+        "53 / 73",
+        "50 / 70",
+        "50 / 70",
+        "48 / 68",
+        "48 / 68"
+      ],
+      "limite": [
+        "29",
+        "26",
+        "26",
+        "24",
+        "24"
+      ],
+      "alargamiento": [
+        "18",
+        "19",
+        "19",
+        "19",
+        "19"
+      ],
+      "dureza": [
+        "150 / 220",
+        "150 / 220",
+        "150 / 220",
+        "150 / 220",
+        "150 / 220"
+      ]
+    },
+    "equivalencias": {
+      "agb": "F-113",
+      "wnr": "1.1181",
+      "europa": "C35E",
+      "espana": "F-1130",
+      "alemania": "C35",
+      "francia": "XC38H1",
+      "italia": "C-35",
+      "usa": "SAE 1030",
+      "japon": "S35C"
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      }
+    ],
+    "gama_medidas": {
+      "Laminados y Forjados": {
+        "Redondos": "16-200 mm",
+        "Palanquilla": "40-120 mm"
+      }
+    }
+  },
+  {
+    "title": "F-1140",
+    "description": "El acero F-1140 es un acero al carbono de resistencia media-alta, con alrededor de 0,45 % de carbono. Puede ser templado y revenido para mejorar su dureza y resistencia mecánica. Es común en la fabricación de ejes, engranajes y tornillería de alta resistencia.",
+    "suministro": "Normalizado",
+    "specs": [
+      "Acero al carbono de resistencia media apto para temple y revenido.",
+      "Buen equilibrio entre resistencia, dureza y tenacidad.",
+      "Admite tratamientos térmicos e inducción.",
+      "Ejes, engranajes, bulones, tornillos y piezas mecánicas generales."
+    ],
+    "chemical": {
+      "c": [
+        "0.42",
+        "0.50"
+      ],
+      "mn": [
+        "0.50",
+        "0.80"
+      ],
+      "si": [
+        "0.15",
+        "0.40"
+      ],
+      "cr": [
+        "—",
+        "—"
+      ],
+      "ni": [
+        "—",
+        "—"
+      ],
+      "mo": [
+        "—",
+        "—"
+      ],
+      "v": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "diametro": [
+        "/16",
+        "16/40",
+        "40/100",
+        "100/160"
+      ],
+      "resistencia": [
+        "65 / 85",
+        "60 / 80",
+        "55 / 75",
+        "50 / 70"
+      ],
+      "limite": [
+        "35",
+        "32",
+        "30",
+        "28"
+      ],
+      "alargamiento": [
+        "16",
+        "16",
+        "15",
+        "14"
+      ],
+      "dureza": [
+        "180 / 240",
+        "170 / 230",
+        "160 / 220",
+        "150 / 210"
+      ]
+    },
+    "equivalencias": {
+      "agb": "F-114",
+      "wnr": "1.1191",
+      "europa": "C45E",
+      "espana": "F-1140",
+      "alemania": "C45",
+      "francia": "XC48",
+      "italia": "C45",
+      "usa": "SAE 1045",
+      "japon": "S45C"
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      },
+      {
+        "label": "Chapa",
+        "href": "#"
+      }
+    ],
+    "gama_medidas": {
+      "Laminados y Forjados": {
+        "Redondos": "16-1000 mm",
+        "Cuadrados": "16-550 mm",
+        "Palanquilla": "45-120 mm"
+      },
+      "Calibrados (h11)": {
+        "Redondos": "5-160 mm",
+        "Cuadrados": "5-100 mm",
+        "Hexagonal": "5-80 mm"
+      },
+      "Rectificados (h8)": {
+        "Redondos": "8-150 mm"
+      },
+      "Chapas": {
+        "rango": "2–200 mm",
+        "formatos": [
+          "2000x1000",
+          "2000x1500",
+          "2000x1270",
+          "2000x600",
+          "2000x500"
+        ]
+      }
+    }
+  },
+  {
+    "title": "F-1150",
+    "description": "El acero F-1150 es un acero al carbono de alto contenido de carbono, cercano al 0,55 %. Tras tratamiento térmico presenta elevada dureza y resistencia al desgaste. Se emplea en ejes, transmisiones y componentes sometidos a cargas elevadas.",
+    "suministro": "Normalizado",
+    "specs": [
+      "Acero para temple y revenido de usos generales, destinado a la fabricación de piezas que tenga que resistir de 70 a 90kg/mm2 de resistencia con una buena tenacidad, en diametro menores de 15mm  admite el temple en aceite.",
+      "Este acero es muy recomendable para el temple por induccion, ya que se pueden obtener durez de caa del orden de los 60 HRC.",
+      "Se emplea en la fabricación de maquinaria y herramientas para la agrícola, tambores de freno, muelles ordinarios de fleje y alambre, cañones de escopeta, etc."
+    ],
+    "chemical": {
+      "c": [
+        "0.50",
+        "0.60"
+      ],
+      "mn": [
+        "0.60",
+        "0.90"
+      ],
+      "si": [
+        "0.15",
+        "0.40"
+      ],
+      "cr": [
+        "—",
+        "—"
+      ],
+      "ni": [
+        "—",
+        "—"
+      ],
+      "mo": [
+        "—",
+        "—"
+      ],
+      "v": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "diametro": [
+        "/16",
+        "16/40",
+        "40/100",
+        "100/160",
+        "160"
+      ],
+      "resistencia": [
+        "66 / 86",
+        "62 / 82",
+        "62 / 82",
+        "60 / 80",
+        "60 / 80"
+      ],
+      "limite": [
+        "36",
+        "32",
+        "32",
+        "29",
+        "29"
+      ],
+      "alargamiento": [
+        "11",
+        "13",
+        "13",
+        "13",
+        "13"
+      ],
+      "dureza": [
+        "240 / 285",
+        "225 / 270",
+        "210 / 255",
+        "200 / 245",
+        "180 / 240"
+      ]
+    },
+    "equivalencias": {
+      "agb": "F-115",
+      "wnr": "1.1203",
+      "europa": "C55E",
+      "espana": "F-1150",
+      "alemania": "CK-55",
+      "francia": "XC-55",
+      "italia": "C55",
+      "usa": "SAE 1055",
+      "japon": "S55C"
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      }
+    ],
+    "gama_medidas": {
+      "Laminados y Forjados": {
+        "Redondos": "16-600 mm"
+      }
+    }
+  },
+  {
+    "title": "ST52-3",
+    "description": "El acero ST52-3 es un acero estructural de bajo contenido de carbono y alta resistencia mecánica. Destaca por su buena soldabilidad, tenacidad y facilidad de conformado en frío. Se utiliza ampliamente en estructuras metálicas, construcción, maquinaria pesada y elementos soldados sometidos a cargas elevadas.",
+    "suministro": "Laminado / Normalizado",
+    "specs": [
+      "Acero estructural de bajo carbono con buena soldabilidad.",
+      "Buena resistencia mecánica y tenacidad.",
+      "Fácil conformado y mecanizado.",
+      "Estructuras metálicas, vigas, chapas, maquinaria y construcción."
+    ],
+    "chemical": {
+      "c": [
+        "0.20",
+        "0.22"
+      ],
+      "mn": [
+        "1.00",
+        "1.60"
+      ],
+      "si": [
+        "0.15",
+        "0.55"
+      ],
+      "cr": [
+        "—",
+        "—"
+      ],
+      "ni": [
+        "—",
+        "—"
+      ],
+      "mo": [
+        "—",
+        "—"
+      ],
+      "v": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "diametro": [
+        "/16",
+        "16/40",
+        "40/100",
+        "100/160",
+        "160"
+      ],
+      "resistencia": [
+        "50 / 70",
+        "50 / 70",
+        "47 / 67",
+        "45 / 65",
+        "42 / 62"
+      ],
+      "limite": [
+        "35",
+        "34",
+        "32",
+        "30",
+        "28"
+      ],
+      "alargamiento": [
+        "22",
+        "22",
+        "21",
+        "20",
+        "19"
+      ],
+      "dureza": [
+        "—",
+        "—",
+        "—",
+        "—",
+        "—"
+      ]
+    },
+    "equivalencias": {
+      "agb": "ST52-3",
+      "wnr": "1.0570",
+      "europa": "S355JR",
+      "espana": "ST52-3",
+      "alemania": "S355JR",
+      "francia": "S355",
+      "italia": "S355JR",
+      "usa": "A572 Gr.50",
+      "japon": "SM490A"
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      }
+    ],
+    "gama_medidas": {
+      "Laminados y Forjados": {
+        "Redondos": "20-1000 mm",
+        "Cuadrados": "25-170 mm"
+      }
+    }
+  },
+  {
+    "title": "S355J2+N",
+    "description": "Acero estructural de alta resistencia con mayor resiliencia que S355J2. Adecuado para estructuras sometidas a condiciones exigentes.",
+    "suministro": "Normalizado (+N)",
+    "specs": [
+      "Alta resistencia mecánica.",
+      "Excelente soldabilidad.",
+      "Alta tenacidad a baja temperatura.",
+      "Uso estructural exigente."
+    ],
+    "chemical": {
+      "c": [
+        "0.20",
+        "0.20"
+      ],
+      "mn": [
+        "1.00",
+        "1.60"
+      ],
+      "si": [
+        "0.15",
+        "0.60"
+      ],
+      "cr": [
+        "—",
+        "—"
+      ],
+      "ni": [
+        "—",
+        "—"
+      ],
+      "mo": [
+        "—",
+        "—"
+      ],
+      "v": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "espesor": [
+        "<16",
+        "16-40",
+        "40-100",
+        "100-160"
+      ],
+      "resistencia": [
+        "470-630",
+        "470-630",
+        "450-600",
+        "430-580"
+      ],
+      "limite": [
+        "355",
+        "345",
+        "335",
+        "325"
+      ],
+      "alargamiento": [
+        "22",
+        "21",
+        "20",
+        "18"
+      ],
+      "dureza": [
+        "—",
+        "—",
+        "—",
+        "—"
+      ]
+    },
+    "equivalencias": {
+      "agb": "S355J2+N",
+      "wnr": "1.0596",
+      "europa": "S355J2",
+      "espana": "S355J2",
+      "alemania": "S355J2",
+      "francia": "E36-4",
+      "italia": "S355J2",
+      "usa": "A572 Gr.50",
+      "japon": "SM490B"
+    },
+    "cortes": [
+      {
+        "label": "Chapa",
+        "href": "#"
+      }
+    ],
+    "gama_medidas": {
+      "Chapas": {
+        "rango": "5–160 mm",
+        "formatos": [
+          "3000x1500",
+          "2500x1000",
+          "2500x500",
+          "2500x450/500"
+        ]
+      }
+    }
+  },
+  {
+    "title": "S355K2+N",
+    "description": "Acero estructural de alta resistencia con mayor resiliencia que S355J2. Adecuado para estructuras sometidas a condiciones exigentes.",
+    "suministro": "Normalizado (+N)",
+    "specs": [
+      "Alta resistencia mecánica.",
+      "Excelente soldabilidad.",
+      "Alta tenacidad a baja temperatura.",
+      "Uso estructural exigente."
+    ],
+    "chemical": {
+      "c": [
+        "0.20",
+        "0.20"
+      ],
+      "mn": [
+        "1.00",
+        "1.60"
+      ],
+      "si": [
+        "0.15",
+        "0.60"
+      ],
+      "cr": [
+        "—",
+        "—"
+      ],
+      "ni": [
+        "—",
+        "—"
+      ],
+      "mo": [
+        "—",
+        "—"
+      ],
+      "v": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "espesor": [
+        "<16",
+        "16-40",
+        "40-100",
+        "100-160"
+      ],
+      "resistencia": [
+        "470-630",
+        "470-630",
+        "450-600",
+        "430-580"
+      ],
+      "limite": [
+        "355",
+        "345",
+        "335",
+        "325"
+      ],
+      "alargamiento": [
+        "22",
+        "21",
+        "20",
+        "18"
+      ],
+      "dureza": [
+        "—",
+        "—",
+        "—",
+        "—"
+      ]
+    },
+    "equivalencias": {
+      "agb": "S355K2+N",
+      "wnr": "1.0596",
+      "europa": "S355K2",
+      "espana": "S355K2",
+      "alemania": "S355K2",
+      "francia": "E36-4",
+      "italia": "S355K2",
+      "usa": "A572 Gr.50",
+      "japon": "SM490B"
+    },
+    "cortes": [
+      {
+        "label": "Chapa",
+        "href": "#"
+      }
+    ],
+    "gama_medidas": {
+      "Chapas": {
+        "rango": "5–160 mm",
+        "formatos": [
+          "3000x1500",
+          "2500x1000",
+          "2500x500",
+          "2500x450/500"
+        ]
+      }
+    }
+  },
+  {
+    "title": "400HB",
+    "description": "Acero antidesgaste con dureza aproximada de 400 HB, diseñado para aplicaciones con abrasión elevada.",
+    "suministro": "Templado y revenido",
+    "specs": [
+      "Alta resistencia al desgaste.",
+      "Buena resistencia a impacto moderado.",
+      "Larga vida útil.",
+      "Uso en minería y maquinaria."
+    ],
+    "chemical": {
+      "c": [
+        "0.12",
+        "0.25"
+      ],
+      "mn": [
+        "1.00",
+        "1.60"
+      ],
+      "si": [
+        "0.20",
+        "0.70"
+      ],
+      "cr": [
+        "0.50",
+        "1.50"
+      ],
+      "ni": [
+        "—",
+        "—"
+      ],
+      "mo": [
+        "0.20",
+        "0.70"
+      ],
+      "v": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "espesor": [
+        "3-10",
+        "10-30",
+        "30-60",
+        "60-100"
+      ],
+      "resistencia": [
+        "1250",
+        "1200",
+        "1100",
+        "1000"
+      ],
+      "limite": [
+        "1000",
+        "950",
+        "900",
+        "850"
+      ],
+      "alargamiento": [
+        "10",
+        "10",
+        "9",
+        "8"
+      ],
+      "dureza": [
+        "370-430",
+        "370-430",
+        "370-430",
+        "370-430"
+      ]
+    },
+    "equivalencias": {
+      "agb": "400HB",
+      "wnr": "—",
+      "europa": "Hardox 400",
+      "espana": "Antidesgaste 400",
+      "alemania": "XAR 400",
+      "francia": "Creusabro 4000",
+      "italia": "—",
+      "usa": "AR400",
+      "japon": "EH400"
+    },
+    "cortes": [
+      {
+        "label": "Chapa",
+        "href": "#"
+      }
+    ],
+    "gama_medidas": {
+      "Chapas": {
+        "rango": "3–100 mm",
+        "formatos": [
+          "3000x1500",
+          "2000x1000",
+          "2000x500",
+          "2000x450"
+        ]
+      }
+    }
+  },
+  {
+    "title": "16Mo3",
+    "description": "Acero aleado con molibdeno para alta temperatura, utilizado en calderería y recipientes a presión.",
+    "suministro": "Normalizado",
+    "specs": [
+      "Resistencia a altas temperaturas.",
+      "Buena soldabilidad.",
+      "Uso en presión.",
+      "Estabilidad térmica."
+    ],
+    "chemical": {
+      "c": [
+        "0.12",
+        "0.20"
+      ],
+      "mn": [
+        "0.40",
+        "0.90"
+      ],
+      "si": [
+        "0.10",
+        "0.35"
+      ],
+      "cr": [
+        "—",
+        "—"
+      ],
+      "ni": [
+        "—",
+        "—"
+      ],
+      "mo": [
+        "0.25",
+        "0.35"
+      ],
+      "v": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "espesor": [
+        "≤16",
+        "16-40",
+        "40-100"
+      ],
+      "resistencia": [
+        "440-590",
+        "440-590",
+        "430-580"
+      ],
+      "limite": [
+        "280",
+        "270",
+        "260"
+      ],
+      "alargamiento": [
+        "22",
+        "22",
+        "21"
+      ],
+      "dureza": [
+        "—",
+        "—",
+        "—"
+      ]
+    },
+    "equivalencias": {
+      "agb": "16Mo3",
+      "wnr": "1.5415",
+      "europa": "16Mo3",
+      "espana": "16Mo3",
+      "alemania": "16Mo3",
+      "francia": "16Mo3",
+      "italia": "16Mo3",
+      "usa": "A204 Gr.B",
+      "japon": "STBA20"
+    },
+    "cortes": [
+      {
+        "label": "Chapa",
+        "href": "#"
+      }
+    ],
+    "gama_medidas": {
+      "Chapas": {
+        "rango": "6–150 mm",
+        "formatos": [
+          "3000x1500",
+          "2500x1250",
+          "2000x1000"
+        ]
+      }
+    }
+  },
+  {
+    "title": "F-1510",
+    "description": "Acero de cementación con bajo contenido de carbono ideal para carburizar. Tras cementar y templar, ofrece superficie dura y núcleo tenaz. Económico y fácil de mecanizar, usado en piezas de formas simples sujetas a fatiga moderada.",
+    "suministro": "Laminado / Normalizado / Recocido",
+    "specs": [
+      "Admite muy bien la soldadura y es apto para cementación.",
+      "Para piezas que requieran buena ductilidad y tenacidad con baja resistencia mecánica.",
+      "Acero base no aleado para uso general y producción en serie.",
+      "Tornillos, remaches, piezas estampadas, tubos, chapas y componentes para embutición en frío."
+    ],
+    "chemical": {
+      "c": [
+        "0.07",
+        "0.13"
+      ],
+      "mn": [
+        "0.30",
+        "0.60"
+      ],
+      "si": [
+        "0.00",
+        "0.40"
+      ],
+      "cr": [
+        "—",
+        "—"
+      ],
+      "ni": [
+        "—",
+        "—"
+      ],
+      "mo": [
+        "—",
+        "—"
+      ],
+      "v": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "diametro": [
+        "< 16",
+        "16 / 40",
+        "40 / 100",
+        "100 / 160"
+      ],
+      "resistencia": [
+        "34 / 54",
+        "32 / 52",
+        "30 / 50",
+        "28 / 48"
+      ],
+      "limite": [
+        "20",
+        "18",
+        "17",
+        "16"
+      ],
+      "alargamiento": [
+        "28",
+        "28",
+        "27",
+        "26"
+      ],
+      "dureza": [
+        "100 / 180",
+        "100 / 170",
+        "90 / 160",
+        "90 / 150"
+      ]
+    },
+    "equivalencias": {
+      "agb": "F-151",
+      "wnr": "1.1121",
+      "europa": "C10E",
+      "espana": "F-1510",
+      "alemania": "Ck10",
+      "francia": "XC10",
+      "italia": "C10",
+      "usa": "1010",
+      "japon": "S10C"
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      }
+    ],
+    "gama_medidas": {
+      "Laminados y Forjados": {
+        "Redondos": "16-300 mm"
+      },
+      "Calibrados (h11)": {
+        "Redondos": "5-100 mm"
+      }
+    }
+  },
+  {
+    "title": "F-1516",
+    "description": "Acero de cementación tipo 16MnCr5 con buena tenacidad y resistencia media en el núcleo tras tratamiento. Se emplea en engranajes, piñones, ejes y piezas que requieren dureza superficial y ductilidad en el interior.",
+    "suministro": "Recocido / Normalizado / Laminado / Calibrado",
+    "specs": [
+      "Acero de cementación con buena tenacidad y resistencia en el núcleo.",
+      "Permite obtener una superficie dura y resistente al desgaste tras tratamiento térmico.",
+      "Buena maquinabilidad y apto para conformado en frío.",
+      "Engranajes, piñones, ejes, bulones, árboles de levas y componentes mecánicos sometidos a desgaste."
+    ],
+    "chemical": {
+      "c": [
+        "0.14",
+        "0.19"
+      ],
+      "mn": [
+        "1.00",
+        "1.30"
+      ],
+      "si": [
+        "0.15",
+        "0.40"
+      ],
+      "cr": [
+        "0.80",
+        "1.10"
+      ],
+      "ni": [
+        "—",
+        "—"
+      ],
+      "mo": [
+        "—",
+        "—"
+      ],
+      "v": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "diametro": [
+        "<16",
+        "16/40",
+        "40/100",
+        "100/160"
+      ],
+      "resistencia": [
+        "60 / 80",
+        "58 / 78",
+        "55 / 75",
+        "50 / 70"
+      ],
+      "limite": [
+        "35",
+        "34",
+        "32",
+        "30"
+      ],
+      "alargamiento": [
+        "18",
+        "17",
+        "16",
+        "15"
+      ],
+      "dureza": [
+        "170 / 230",
+        "170 / 230",
+        "160 / 220",
+        "150 / 210"
+      ]
+    },
+    "equivalencias": {
+      "agb": "F-1516",
+      "wnr": "1.7131",
+      "europa": "16MnCr5",
+      "espana": "F-1516",
+      "alemania": "16MnCr5",
+      "francia": "16MC5",
+      "italia": "16MnCr5",
+      "usa": "5115",
+      "japon": "SCM415"
+    },
+    "cortes": [
+      {
+        "label": "Chapa",
+        "href": "#"
+      },
+      {
+        "label": "Ángulo",
+        "href": "#"
+      },
+      {
+        "label": "Redondo",
+        "href": "#"
+      }
+    ],
+    "gama_medidas": {
+      "Laminados y Forjados": {
+        "Redondos": "16-500 mm"
+      }
+    }
+  },
+  {
+    "title": "F-1540",
+    "description": "Acero aleado con Cromo–Níquel (15NiCr11), proporcionado una capa superficial dura y un núcleo resistente (≈80-120 kg/mm²). Común en engranajes, cajas de cambio, piñones y mecanismos de alta responsabilidad.",
+    "suministro": "Recocido / Normalizado / Laminado / Calibrado",
+    "specs": [
+      "Acero de cementación aleado al Níquel-Cromo con alta tenacidad en el núcleo.",
+      "Permite obtener superficies muy duras y resistentes al desgaste tras tratamiento térmico.",
+      "Excelente comportamiento frente a fatiga y cargas dinámicas.",
+      "Engranajes, piñones, ejes, cajas de cambio, árboles de transmisión y componentes de alta responsabilidad."
+    ],
+    "chemical": {
+      "c": [
+        "0.12",
+        "0.18"
+      ],
+      "mn": [
+        "0.40",
+        "0.70"
+      ],
+      "si": [
+        "0.15",
+        "0.40"
+      ],
+      "cr": [
+        "0.60",
+        "0.90"
+      ],
+      "ni": [
+        "2.75",
+        "3.25"
+      ],
+      "mo": [
+        "—",
+        "—"
+      ],
+      "v": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "diametro": [
+        "<16",
+        "16/40",
+        "40/100",
+        "100/160",
+        ">160"
+      ],
+      "resistencia": [
+        "80 / 110",
+        "75 / 105",
+        "70 / 100",
+        "65 / 95",
+        "60 / 90"
+      ],
+      "limite": [
+        "50",
+        "48",
+        "45",
+        "42",
+        "38"
+      ],
+      "alargamiento": [
+        "12",
+        "12",
+        "11",
+        "10",
+        "10"
+      ],
+      "dureza": [
+        "200 / 260",
+        "200 / 260",
+        "190 / 250",
+        "180 / 240",
+        "170 / 230"
+      ]
+    },
+    "equivalencias": {
+      "agb": "F-154",
+      "wnr": "1.5732",
+      "europa": "15NiCr13",
+      "espana": "F-1540",
+      "alemania": "15NiCr13",
+      "francia": "15NCD13",
+      "italia": "15NiCr13",
+      "usa": "3415",
+      "japon": "SNCM220"
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      }
+    ],
+    "gama_medidas": {
+      "Laminados y Forjados": {
+        "Redondos": "20-550 mm"
+      }
+    }
+  },
+  {
+    "title": "F-1550",
+    "description": "Acero al Cr-Mo (18CrMo4) para piezas cementadas con buena dureza superficial y resistencia moderada en el núcleo. Muy utilizado en piñones, coronas, bulones y árboles de levas.",
+    "suministro": "Recocido / Normalizado / Laminado / Calibrado",
+    "specs": [
+      "Acero de cementación aleado al Cromo-Molibdeno con buena resistencia mecánica.",
+      "Permite obtener una superficie dura y un núcleo tenaz tras tratamiento térmico",
+      "Buena resistencia al desgaste y a la fatiga.",
+      "Piñones, engranajes, árboles de levas, bulones y componentes de maquinaria."
+    ],
+    "chemical": {
+      "c": [
+        "0.15",
+        "0.21"
+      ],
+      "mn": [
+        "0.60",
+        "0.90"
+      ],
+      "si": [
+        "0.15",
+        "0.40"
+      ],
+      "cr": [
+        "0.85",
+        "1.15"
+      ],
+      "ni": [
+        "—",
+        "—"
+      ],
+      "mo": [
+        "0.15",
+        "0.25"
+      ],
+      "v": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "diametro": [
+        "<16",
+        "16/40",
+        "40/100",
+        "100/160",
+        ">160"
+      ],
+      "resistencia": [
+        "75 / 95",
+        "70 / 90",
+        "65 / 85",
+        "60 / 80",
+        "55 / 75"
+      ],
+      "limite": [
+        "45",
+        "42",
+        "40",
+        "38",
+        "35"
+      ],
+      "alargamiento": [
+        "14",
+        "14",
+        "13",
+        "12",
+        "11"
+      ],
+      "dureza": [
+        "200 / 260",
+        "190 / 250",
+        "180 / 240",
+        "170 / 230",
+        "160 / 220"
+      ]
+    },
+    "equivalencias": {
+      "agb": "F-155",
+      "wnr": "1.7243",
+      "europa": "18CrMo4",
+      "espana": "F-1550",
+      "alemania": "18CrMo4",
+      "francia": "20CD4",
+      "italia": "18CrMo4",
+      "usa": "",
+      "japon": "SCM420"
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      }
+    ],
+    "gama_medidas": {
+      "Laminados y Forjados": {
+        "Redondos": "16-700 mm"
+      }
+    }
+  },
+  {
+    "title": "F-1560",
+    "description": "Acero de cementación con aleación de Níquel-Cromo-Molibdeno que permite alta resistencia en el núcleo (hasta ~140 kg/mm²). Ideal para engranajes, bielas, palieres y piezas de gran espesor con altas exigencias mecánicas.",
+    "suministro": "Recocido / Normalizado / Laminado / Calibrado",
+    "specs": [
+      "Acero de cementación aleado al Níquel-Cromo-Molibdeno de alta resistencia.",
+      "Ofrece elevada tenacidad en el núcleo y gran dureza superficial tras tratamiento.",
+      "Excelente comportamiento frente a fatiga y cargas dinámicas.",
+      "Engranajes de alta carga, ejes, palieres, bielas y componentes de transmisión."
+    ],
+    "chemical": {
+      "c": [
+        "0.11",
+        "0.17"
+      ],
+      "mn": [
+        "0.30",
+        "0.60"
+      ],
+      "si": [
+        "0.15",
+        "0.40"
+      ],
+      "cr": [
+        "0.80",
+        "1.10"
+      ],
+      "ni": [
+        "3.00",
+        "3.50"
+      ],
+      "mo": [
+        "0.20",
+        "0.30"
+      ],
+      "v": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "diametro": [
+        "<16",
+        "16/40",
+        "40/100",
+        "100/160",
+        ">160"
+      ],
+      "resistencia": [
+        "90 / 120",
+        "85 / 115",
+        "80 / 110",
+        "75 / 105",
+        "70 / 100"
+      ],
+      "limite": [
+        "60",
+        "58",
+        "55",
+        "50",
+        "48"
+      ],
+      "alargamiento": [
+        "11",
+        "11",
+        "10",
+        "10",
+        "9"
+      ],
+      "dureza": [
+        "220 / 280",
+        "210 / 270",
+        "200 / 260",
+        "190 / 250",
+        "180 / 240"
+      ]
+    },
+    "equivalencias": {
+      "agb": "F-156",
+      "wnr": "1.6657",
+      "europa": "14NiCrMo13",
+      "espana": "F-1560",
+      "alemania": "14NiCrMo13",
+      "francia": "14NCD13",
+      "italia": "14NiCrMo13",
+      "usa": "9310",
+      "japon": "SNCM220"
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      }
+    ],
+    "gama_medidas": {
+      "Laminados y Forjados": {
+        "Redondos": "30-220 mm"
+      }
+    }
+  },
+  {
+    "title": "F-1582",
+    "description": "Acero para cementar con buena tenacidad y resistencia en núcleo (~100-125 kg/mm²). Admite soldadura con precalentamiento y se usa en engranajes, ejes y pernos de dimensiones medias.",
+    "suministro": "Recocido / Normalizado / Laminado / Calibrado",
+    "specs": [
+      "Acero de cementación aleado al Cromo-Níquel-Molibdeno con buena resistencia y tenacidad.",
+      "Permite obtener superficies duras con núcleo resistente tras tratamiento térmico.",
+      "Buen comportamiento frente a fatiga y desgaste.",
+      "Engranajes, ejes, pernos, árboles de transmisión y piezas mecánicas de responsabilidad media-alta."
+    ],
+    "chemical": {
+      "c": [
+        "0.17",
+        "0.23"
+      ],
+      "mn": [
+        "0.80",
+        "1.10"
+      ],
+      "si": [
+        "0.15",
+        "0.35"
+      ],
+      "cr": [
+        "0.80",
+        "1.10"
+      ],
+      "ni": [
+        "0.80",
+        "1.20"
+      ],
+      "mo": [
+        "0.15",
+        "0.25"
+      ],
+      "v": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "diametro": [
+        "<16",
+        "16/40",
+        "40/100",
+        "100/160",
+        ">160"
+      ],
+      "resistencia": [
+        "85 / 115",
+        "80 / 110",
+        "75 / 105",
+        "70 / 100",
+        "65 / 95"
+      ],
+      "limite": [
+        "55",
+        "52",
+        "50",
+        "48",
+        "45"
+      ],
+      "alargamiento": [
+        "12",
+        "12",
+        "11",
+        "11",
+        "10"
+      ],
+      "dureza": [
+        "200 / 260",
+        "190 / 250",
+        "180 / 240",
+        "170 / 230",
+        "160 / 220"
+      ]
+    },
+    "equivalencias": {
+      "agb": "F-1582",
+      "wnr": "1.6523",
+      "europa": "20CrNiMo4",
+      "espana": "F-1582",
+      "alemania": "20NiCrMo2-2",
+      "francia": "18NCD6",
+      "italia": "20NiCrMo2",
+      "usa": "8620",
+      "japon": "SNCM220"
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      }
+    ],
+    "gama_medidas": {
+      "Laminados y Forjados": {
+        "Redondos": "20-500 mm"
+      }
+    }
+  },
+  {
+    "title": "F-1252",
+    "description": "Acero aleado al Cromo-Molibdeno con alta resistencia mecánica y tenacidad tras tratamiento térmico. Usado en ejes, cigüeñales y componentes sometidos a esfuerzos elevados.",
+    "suministro": "Templado y Revenido / Recocido / Laminado",
+    "specs": [
+      "Acero aleado al Cromo-Molibdeno de alta resistencia y tenacidad.",
+      "Excelente comportamiento a fatiga y esfuerzos dinámicos.",
+      "Admite temple y revenido e inducción.",
+      "Ejes, cigüeñales, engranajes, bielas y piezas de alta responsabilidad."
+    ],
+    "chemical": {
+      "c": [
+        "0.38",
+        "0.45"
+      ],
+      "mn": [
+        "0.60",
+        "0.90"
+      ],
+      "si": [
+        "0.15",
+        "0.40"
+      ],
+      "cr": [
+        "0.90",
+        "1.20"
+      ],
+      "ni": [
+        "—",
+        "—"
+      ],
+      "mo": [
+        "0.15",
+        "0.30"
+      ],
+      "v": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "diametro": [
+        "<16",
+        "16/40",
+        "40/100",
+        "100/160",
+        ">160"
+      ],
+      "resistencia": [
+        "90 / 110",
+        "85 / 105",
+        "80 / 100",
+        "75 / 95",
+        "70 / 90"
+      ],
+      "limite": [
+        "70",
+        "65",
+        "60",
+        "55",
+        "50"
+      ],
+      "alargamiento": [
+        "14",
+        "14",
+        "13",
+        "12",
+        "12"
+      ],
+      "dureza": [
+        "260 / 320",
+        "250 / 310",
+        "230 / 290",
+        "240 / 300",
+        "220 / 280"
+      ]
+    },
+    "equivalencias": {
+      "agb": "F-1252",
+      "wnr": "1.7225",
+      "europa": "42CrMo4",
+      "espana": "F-1252",
+      "alemania": "42CrMo4",
+      "francia": "42CrMo4",
+      "italia": "42CrMo4",
+      "usa": "4140",
+      "japon": "SCM440"
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      }
+    ],
+    "gama_medidas": {
+      "Laminados y Forjados (Recocido)": {
+        "Redondos": "16-160 mm",
+        "Palanquilla": "45-120 mm"
+      },
+      "Laminados y Forjados (Tratado)": {
+        "Redondos": "16-800 mm"
+      },
+      "Calibrados (h11)": {
+        "Redondos": "8-65 mm"
+      }
+    }
+  },
+  {
+    "title": "F-1272",
+    "description": "Acero más aleado con gran resistencia mecánica, tenacidad y templabilidad, ideal para piezas críticas bajo flexión y choque como bielas, ejes o piezas de maquinaria pesada.",
+    "suministro": "Templado y Revenido / Recocido / Laminado",
+    "specs": [
+      "Acero aleado al Níquel-Cromo-Molibdeno de muy alta resistencia.",
+      "Gran tenacidad y excelente comportamiento a fatiga.",
+      "Alta templabilidad para grandes secciones.",
+      "Ejes, bielas, engranajes, componentes aeronáuticos y maquinaria pesada."
+    ],
+    "chemical": {
+      "c": [
+        "0.30",
+        "0.38"
+      ],
+      "mn": [
+        "0.50",
+        "0.80"
+      ],
+      "si": [
+        "0.15",
+        "0.40"
+      ],
+      "cr": [
+        "0.70",
+        "1.00"
+      ],
+      "ni": [
+        "1.30",
+        "1.70"
+      ],
+      "mo": [
+        "0.15",
+        "0.30"
+      ],
+      "v": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "diametro": [
+        "<16",
+        "16/40",
+        "40/100",
+        "100/160",
+        ">160"
+      ],
+      "resistencia": [
+        "100 / 130",
+        "95 / 125",
+        "90 / 120",
+        "85 / 115",
+        "80 / 110"
+      ],
+      "limite": [
+        "80",
+        "75",
+        "70",
+        "65",
+        "60"
+      ],
+      "alargamiento": [
+        "13",
+        "13",
+        "12",
+        "11",
+        "10"
+      ],
+      "dureza": [
+        "280 / 340",
+        "270 / 330",
+        "260 / 320",
+        "250 / 310",
+        "240 / 300"
+      ]
+    },
+    "equivalencias": {
+      "agb": "F-1272",
+      "wnr": "1.6562",
+      "europa": "34CrNiMo6",
+      "espana": "F-1272",
+      "alemania": "34CrNiMo6",
+      "francia": "34NiCrMo6",
+      "italia": "34NiCrMo6",
+      "usa": "4340",
+      "japon": "SNCM439"
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      }
+    ],
+    "gama_medidas": {
+      "Laminados y Forjados (Tratado)": {
+        "Redondos": "16-750 mm"
+      }
+    }
+  },
+  {
+    "title": "F-1310",
+    "description": "Acero para rodamientos equivalente al 100Cr6 (1.3505), con alta dureza y resistencia al desgaste, perfecto para anillos, bolas, rodillos y elementos sometidos a cargas repetidas.",
+    "suministro": "Recocido / Templado",
+    "specs": [
+      "Acero para rodamientos con alta dureza y resistencia al desgaste.",
+      "Excelente comportamiento frente a fatiga de contacto.",
+      "Gran estabilidad dimensional tras tratamiento térmico.",
+      "Rodamientos, bolas, rodillos, pistas y componentes de precisión."
+    ],
+    "chemical": {
+      "c": [
+        "0.90",
+        "1.10"
+      ],
+      "mn": [
+        "0.25",
+        "0.45"
+      ],
+      "si": [
+        "0.15",
+        "0.40"
+      ],
+      "cr": [
+        "1.35",
+        "1.65"
+      ],
+      "ni": [
+        "—",
+        "—"
+      ],
+      "mo": [
+        "—",
+        "—"
+      ],
+      "v": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "diametro": [
+        "<16",
+        "16/40"
+      ],
+      "resistencia": [
+        "—",
+        "—"
+      ],
+      "limite": [
+        "—",
+        "—"
+      ],
+      "alargamiento": [
+        "—",
+        "—"
+      ],
+      "dureza": [
+        "60 / 66 HRC",
+        "60 / 66 HRC"
+      ]
+    },
+    "equivalencias": {
+      "agb": "F-131",
+      "wnr": "1.3505",
+      "europa": "102Cr6",
+      "espana": "F-1310",
+      "alemania": "100Cr6",
+      "francia": "100Cr6",
+      "italia": "100Cr6",
+      "usa": "52100",
+      "japon": "SUJ2"
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      }
+    ],
+    "gama_medidas": {
+      "Laminados y Forjados": {
+        "Redondos": "18-400 mm"
+      }
+    }
+  },
+  {
+    "title": "F-1430",
+    "description": "Acero de alto límite elástico (similar a 50CrV4) con gran resistencia a la fatiga y buena elasticidad, usado en muelles, barras de torsión y herramientas sometidas a esfuerzos repetidos.",
+    "suministro": "Recocido / Templado y Revenido / Laminado",
+    "specs": [
+      "Acero aleado al Cromo-Vanadio con alta resistencia a la fatiga.",
+      "Excelente elasticidad y comportamiento en esfuerzos repetidos.",
+      "Buena templabilidad para piezas medianas.",
+      "Muelles, barras de torsión, herramientas y elementos elásticos."
+    ],
+    "chemical": {
+      "c": [
+        "0.47",
+        "0.53"
+      ],
+      "mn": [
+        "0.70",
+        "1.10"
+      ],
+      "si": [
+        "0.15",
+        "0.40"
+      ],
+      "cr": [
+        "0.90",
+        "1.20"
+      ],
+      "ni": [
+        "—",
+        "—"
+      ],
+      "mo": [
+        "—",
+        "—"
+      ],
+      "v": [
+        "0.10",
+        "0.20"
+      ]
+    },
+    "mechanical": {
+      "diametro": [
+        "<16",
+        "16/40",
+        "40/100",
+        "100/160"
+      ],
+      "resistencia": [
+        "80/100",
+        "75/95",
+        "70/90",
+        "65/85"
+      ],
+      "limite": [
+        "60",
+        "55",
+        "50",
+        "45"
+      ],
+      "alargamiento": [
+        "12",
+        "12",
+        "11",
+        "10"
+      ],
+      "dureza": [
+        "250 / 320",
+        "240 / 300",
+        "230 / 290",
+        "220 / 280"
+      ]
+    },
+    "equivalencias": {
+      "agb": "F-143",
+      "wnr": "1.8159",
+      "europa": "51CrV4",
+      "espana": "F-1430",
+      "alemania": "50CrV4",
+      "francia": "50CrV4",
+      "italia": "50CrV4",
+      "usa": "6150",
+      "japon": "SUP10"
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      },
+      {
+        "label": "Chapa",
+        "href": "#"
+      }
+    ],
+    "gama_medidas": {
+      "Laminados y Forjados": {
+        "Redondos": "18-220 mm"
+      },
+      "Chapas": {
+        "rango": "2–3.5 mm",
+        "formatos": [
+          "2x1",
+          "2.5x1.26"
+        ]
+      }
+    }
+  },
+  {
+    "title": "F-1740",
+    "description": "Acero para nitruración (equivalente a 41CrAlMo7 / 1.8509) que tras tratamiento ofrece muy alta dureza superficial y buena resistencia al desgaste, útil en camisas de cilindros, guías y piezas de desgaste.",
+    "suministro": "Templado y Revenido / Recocido / Laminado",
+    "specs": [
+      "Acero para nitruración con elevada dureza superficial.",
+      "Excelente resistencia al desgaste y a la fatiga superficial.",
+      "Muy buena estabilidad dimensional tras tratamiento.",
+      "Cilindros, camisas, husillos, engranajes y piezas de desgaste."
+    ],
+    "chemical": {
+      "c": [
+        "0.38",
+        "0.45"
+      ],
+      "mn": [
+        "0.50",
+        "0.80"
+      ],
+      "si": [
+        "0.20",
+        "0.50"
+      ],
+      "cr": [
+        "1.50",
+        "1.80"
+      ],
+      "ni": [
+        "—",
+        "—"
+      ],
+      "mo": [
+        "0.25",
+        "0.40"
+      ],
+      "v": [
+        "Al 0.90",
+        "Al 1.20"
+      ]
+    },
+    "mechanical": {
+      "diametro": [
+        "<16",
+        "16/40",
+        "40/100",
+        "100/160",
+        ">160"
+      ],
+      "resistencia": [
+        "90/110",
+        "85/105",
+        "80/100",
+        "75/95",
+        "70/90"
+      ],
+      "limite": [
+        "70",
+        "65",
+        "60",
+        "55",
+        "50"
+      ],
+      "alargamiento": [
+        "14",
+        "14",
+        "13",
+        "12",
+        "11"
+      ],
+      "dureza": [
+        "260 / 320",
+        "250 / 310",
+        "240 / 300",
+        "230 / 290",
+        "220 / 280"
+      ]
+    },
+    "equivalencias": {
+      "agb": "F-174",
+      "wnr": "1.8509",
+      "europa": "41CrAlMo7",
+      "espana": "F-1740",
+      "alemania": "41CrAlMo7",
+      "francia": "40CAD6.12",
+      "italia": "41CrAlMo7",
+      "usa": "",
+      "japon": "SACM645"
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      }
+    ],
+    "gama_medidas": {
+      "Laminados y Forjados (Tratado)": {
+        "Redondos": "20-300 mm"
+      }
+    }
+  },
+  {
+    "title": "F-5211",
+    "description": "Acero de herramienta para trabajo en frío con elevada resistencia al desgaste y buena tenacidad, adecuado para matrices de corte/embutición, punzones y piezas que trabajan en frío.",
+    "suministro": "Recocido",
+    "specs": [
+      "Acero de herramienta para trabajo en frío con alta resistencia al desgaste.",
+      "Excelente estabilidad dimensional en el temple.",
+      "Buena resistencia a compresión.",
+      "Matrices de corte, punzones, cuchillas, troqueles y herramientas de estampación."
+    ],
+    "chemical": {
+      "c": [
+        "1.45",
+        "1.60"
+      ],
+      "mn": [
+        "0.20",
+        "0.60"
+      ],
+      "si": [
+        "0.10",
+        "0.40"
+      ],
+      "cr": [
+        "11.00",
+        "13.00"
+      ],
+      "ni": [
+        "—",
+        "—"
+      ],
+      "mo": [
+        "0.70",
+        "1.00"
+      ],
+      "v": [
+        "0.90",
+        "1.20"
+      ]
+    },
+    "mechanical": {
+      "diametro": "Barras",
+      "resistencia": "—",
+      "limite": "—",
+      "alargamiento": "—",
+      "dureza": "250 max (recocido)"
+    },
+    "equivalencias": {
+      "agb": "F-5211",
+      "wnr": "1.2379",
+      "europa": "X160CrMoV121",
+      "espana": "F-5211",
+      "alemania": "X155CrVMo12",
+      "francia": "X160CrMoV12",
+      "italia": "UX155CrVMo12.1KU",
+      "usa": "A681(D2)ASTM",
+      "japon": "SKD-11"
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      }
+    ],
+    "gama_medidas": {
+      "Laminados y Forjados": {
+        "Redondos": "20-450 mm"
+      }
+    }
+  },
+  {
+    "title": "F-5229",
+    "description": "Acero para trabajo en frío económico, templable en aceite con buena tenacidad y estabilidad dimensional, usado en herramientas de corte, punzones, matrices y guías.",
+    "suministro": "Recocido",
+    "specs": [
+      "Acero para herramientas de trabajo en frío templable en aceite.",
+      "Buena tenacidad y estabilidad dimensional.",
+      "Fácil mecanización.",
+      "Punzones, matrices, cuchillas, calibres y herramientas de corte."
+    ],
+    "chemical": {
+      "c": [
+        "0.85",
+        "0.95"
+      ],
+      "mn": [
+        "1.90",
+        "2.10"
+      ],
+      "si": [
+        "0.20",
+        "0.40"
+      ],
+      "cr": [
+        "—",
+        "—"
+      ],
+      "ni": [
+        "—",
+        "—"
+      ],
+      "mo": [
+        "—",
+        "—"
+      ],
+      "v": [
+        "0.05",
+        "0.20"
+      ]
+    },
+    "mechanical": {
+      "diametro": "Barras",
+      "resistencia": "—",
+      "limite": "—",
+      "alargamiento": "—",
+      "dureza": "230 max (recocido)"
+    },
+    "equivalencias": {
+      "agb": "F-5229",
+      "wnr": "1.2842",
+      "europa": "90MNCrV8",
+      "espana": "F-5229",
+      "alemania": "90MnCrV8",
+      "francia": "90MnV8",
+      "italia": "U88MnV8KU",
+      "usa": "A681(O2)ASTM",
+      "japon": ""
+    },
+    "cortes": [
+      {
+        "label": "Redondo",
+        "href": "#"
+      },
+      {
+        "label": "Cuadrado",
+        "href": "#"
+      },
+      {
+        "label": "Hexágono",
+        "href": "#"
+      }
+    ],
+    "gama_medidas": {
+      "Laminados y Forjados": {
+        "Redondos": "20-300 mm"
+      },
+      "Chapas": {
+        "rango": "2–5 mm",
+        "formatos": [
+          "2000x1000"
+        ]
+      }
+    }
+  },
+  {
+    "title": "EH36",
+    "description": "Acero naval de alta resistencia con excelente tenacidad a bajas temperaturas.",
+    "suministro": "Normalizado / TMCP",
+    "specs": [
+      "Alta resistencia estructural.",
+      "Excelente comportamiento a impacto.",
+      "Buena soldabilidad.",
+      "Uso naval."
+    ],
+    "chemical": {
+      "c": [
+        "0.16",
+        "0.18"
+      ],
+      "mn": [
+        "0.90",
+        "1.60"
+      ],
+      "si": [
+        "0.10",
+        "0.50"
+      ],
+      "cr": [
+        "0.20",
+        "0.20"
+      ],
+      "ni": [
+        "0.40",
+        "0.40"
+      ],
+      "mo": [
+        "0.08",
+        "0.08"
+      ],
+      "v": [
+        "0.05",
+        "0.05"
+      ]
+    },
+    "mechanical": {
+      "espesor": [
+        "≤50",
+        "50-100"
+      ],
+      "resistencia": [
+        "490-620",
+        "490-620"
+      ],
+      "limite": [
+        "355",
+        "355"
+      ],
+      "alargamiento": [
+        "22",
+        "21"
+      ],
+      "dureza": [
+        "170-235",
+        "170-235"
+      ]
+    },
+    "equivalencias": {
+      "agb": "EH36",
+      "wnr": "—",
+      "europa": "EH36",
+      "espana": "EH36",
+      "alemania": "—",
+      "francia": "—",
+      "italia": "—",
+      "usa": "ABS EH36",
+      "japon": "KA36"
+    },
+    "cortes": [
+      {
+        "label": "Chapa",
+        "href": "#"
+      }
+    ],
+    "gama_medidas": {
+      "Chapas": {
+        "rango": "5–100 mm",
+        "formatos": [
+          "3000x1500"
+        ]
+      }
+    }
+  },
+  {
+    "title": "Chapa Bimetálica",
+    "description": "Chapa con base estructural y recubrimiento antidesgaste aplicado por soldadura.",
+    "suministro": "Recargada",
+    "specs": [
+      "Muy alta resistencia al desgaste.",
+      "Capa dura + base estructural.",
+      "Uso en minería.",
+      "Gran durabilidad."
+    ],
+    "chemical": {
+      "c": [
+        "—",
+        "—"
+      ],
+      "mn": [
+        "—",
+        "—"
+      ],
+      "si": [
+        "—",
+        "—"
+      ],
+      "cr": [
+        "—",
+        "—"
+      ],
+      "ni": [
+        "—",
+        "—"
+      ],
+      "mo": [
+        "—",
+        "—"
+      ],
+      "v": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "espesor": [
+        "10+10"
+      ],
+      "resistencia": [
+        "—"
+      ],
+      "limite": [
+        "—"
+      ],
+      "alargamiento": [
+        "—"
+      ],
+      "dureza": [
+        "500-600 HB"
+      ]
+    },
+    "equivalencias": {
+      "agb": "Bimetálica",
+      "wnr": "—",
+      "europa": "—",
+      "espana": "Antidesgaste",
+      "alemania": "—",
+      "francia": "—",
+      "italia": "—",
+      "usa": "—",
+      "japon": "—"
+    },
+    "cortes": [
+      {
+        "label": "Chapa",
+        "href": "#"
+      }
+    ],
+    "gama_medidas": {
+      "Chapas": {
+        "rango": "—",
+        "formatos": [
+          "2900x1350x10 (6+4)"
+        ]
+      }
+    }
+  }
+]

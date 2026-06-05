@@ -1,0 +1,227 @@
+[
+  {
+    "title": "CuZn39PB3",
+    "description": "Latón con plomo de excelente mecanizabilidad y buena resistencia mecánica. Muy utilizado en piezas torneadas y componentes de precisión.",
+    "suministro": "Estirado / Laminado",
+    "specs": [
+      "Excelente mecanizabilidad.",
+      "Buena resistencia mecánica y a la corrosión.",
+      "Muy apto para torneado automático.",
+      "Racores, válvulas, tornillería y piezas mecanizadas."
+    ],
+    "chemical": {
+      "cu": [
+        "57.0",
+        "59.0"
+      ],
+      "zn": [
+        "39.0",
+        "42.0"
+      ],
+      "pb": [
+        "2.5",
+        "3.5"
+      ],
+      "fe": [
+        "—",
+        "0.3"
+      ],
+      "ni": [
+        "—",
+        "0.3"
+      ],
+      "al": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "espesor": [
+        "<40",
+        "40-100",
+        ">100"
+      ],
+      "resistencia": [
+        "36-52",
+        "34-50",
+        "32-48"
+      ],
+      "limite": [
+        "12",
+        "11",
+        "10"
+      ],
+      "alargamiento": [
+        "18",
+        "18",
+        "15"
+      ],
+      "dureza": [
+        "100-160",
+        "100-160",
+        "95-150"
+      ]
+    },
+    "equivalencias": {
+      "agb": "CuZn39Pb3",
+      "wnr": "2.0401",
+      "europa": "CW614N",
+      "espana": "L-3443",
+      "alemania": "CuZn39Pb3",
+      "francia": "CuZn39Pb3",
+      "italia": "P-CW614N",
+      "usa": "C38500",
+      "japon": "C3604"
+    }
+  },
+  {
+    "title": "CuZn37",
+    "description": "Latón de alta ductilidad y excelente conformabilidad en frío. Muy utilizado en estampación, embutición y aplicaciones decorativas.",
+    "suministro": "Laminado / Estirado / Recocido",
+    "specs": [
+      "Excelente conformabilidad y embutición.",
+      "Buena resistencia a la corrosión.",
+      "Muy buena soldabilidad.",
+      "Decoración, cartuchería, radiadores y piezas estampadas."
+    ],
+    "chemical": {
+      "cu": [
+        "62.0",
+        "64.0"
+      ],
+      "zn": [
+        "36.0",
+        "38.0"
+      ],
+      "pb": [
+        "—",
+        "0.05"
+      ],
+      "fe": [
+        "—",
+        "0.1"
+      ],
+      "ni": [
+        "—",
+        "0.3"
+      ],
+      "al": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "espesor": [
+        "<40",
+        "40-100",
+        ">100"
+      ],
+      "resistencia": [
+        "30-45",
+        "28-42",
+        "26-40"
+      ],
+      "limite": [
+        "10",
+        "9",
+        "8"
+      ],
+      "alargamiento": [
+        "30",
+        "30",
+        "28"
+      ],
+      "dureza": [
+        "70-120",
+        "70-120",
+        "65-115"
+      ]
+    },
+    "equivalencias": {
+      "agb": "CuZn37",
+      "wnr": "2.0321",
+      "europa": "CW508L",
+      "espana": "L-3631",
+      "alemania": "CuZn37",
+      "francia": "CuZn37",
+      "italia": "CuZn37",
+      "usa": "C27200",
+      "japon": "C2720"
+    }
+  },
+  {
+    "title": "CuZn40PB2",
+    "description": "Latón forjable con plomo, con buena resistencia mecánica y excelente comportamiento en mecanizado y estampación en caliente.",
+    "suministro": "Laminado / Forjado",
+    "specs": [
+      "Excelente aptitud para forja en caliente.",
+      "Buena mecanizabilidad.",
+      "Buena resistencia mecánica y a la corrosión.",
+      "Válvulas, grifería, racores y componentes hidráulicos."
+    ],
+    "chemical": {
+      "cu": [
+        "58.0",
+        "60.0"
+      ],
+      "zn": [
+        "38.0",
+        "41.0"
+      ],
+      "pb": [
+        "1.6",
+        "2.5"
+      ],
+      "fe": [
+        "—",
+        "0.3"
+      ],
+      "ni": [
+        "—",
+        "0.3"
+      ],
+      "al": [
+        "—",
+        "—"
+      ]
+    },
+    "mechanical": {
+      "espesor": [
+        "<40",
+        "40-100",
+        ">100"
+      ],
+      "resistencia": [
+        "35-50",
+        "34-48",
+        "32-46"
+      ],
+      "limite": [
+        "12",
+        "11",
+        "10"
+      ],
+      "alargamiento": [
+        "20",
+        "18",
+        "16"
+      ],
+      "dureza": [
+        "90-150",
+        "90-150",
+        "85-145"
+      ]
+    },
+    "equivalencias": {
+      "agb": "CuZn40Pb2",
+      "wnr": "2.0402",
+      "europa": "CW617N",
+      "espana": "L-3541",
+      "alemania": "CuZn40Pb2",
+      "francia": "CuZn40Pb2",
+      "italia": "CW617N",
+      "usa": "C37700",
+      "japon": "C3771"
+    }
+  }
+]
