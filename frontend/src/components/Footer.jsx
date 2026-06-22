@@ -119,10 +119,6 @@ export default function Footer() {
           >
             Política de cookies
           </a>
-          <span>|</span>
-          <a href="#" className="hover:text-white transition-colors">
-            Terminos y Condiciones
-          </a>
         </div>
         <div className="text-white">
           Copyright © {new Date().getFullYear()} | GRAU BASSAS S.L.

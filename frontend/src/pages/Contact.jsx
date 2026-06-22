@@ -246,7 +246,10 @@ export default function Contact() {
                   </span>
                 </p>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  Fax: 928 462 133
+                  Plásticos:{" "}
+                  <span className="font-semibold text-gray-800">
+                    928 426 012
+                  </span>
                 </p>
               </div>
 
