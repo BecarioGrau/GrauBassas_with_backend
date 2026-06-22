@@ -59,11 +59,9 @@ CSRF_TRUSTED_ORIGINS = [
     "http://localhost:8000",
 ]
 
-# Imprescindible para que el navegador comparta la cookie de sesión
-# entre diferentes dominios (localhost <-> railway.app)
 SESSION_COOKIE_SAMESITE = 'None'
 SESSION_COOKIE_SECURE = True
-CRSF_COOKIE_SAMESITE = 'None'
+CSRF_COOKIE_SAMESITE = 'None'
 CSRF_COOKIE_SECURE = True
 
 

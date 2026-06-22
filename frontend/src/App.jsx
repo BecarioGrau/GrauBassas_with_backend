@@ -4,6 +4,7 @@ import Marquee from "./components/Marquee";
 import { marqueeItems } from "./data/HomeContentData";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Cookiebanner from "./components/Cookiebanner";
 import { NavigationProvider } from "./context/NavigationContext";
 
 const Home = lazy(() => import("./pages/Home"));
@@ -40,6 +41,7 @@ function App() {
         <Route path="/panel-interno-58us/catalogo" element={<AdminCatalog />} />
       </Routes>
       <Footer />
+      <Cookiebanner />
     </NavigationProvider>
   );
 }
