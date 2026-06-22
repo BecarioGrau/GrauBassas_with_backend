@@ -60,7 +60,7 @@ const PoliticaCookies = () => {
           Política de Cookies
         </h1>
         <div className="w-16 h-1 bg-primary mb-4 mx-auto md:mx-0" />
-        <p className="text-sm text-slate-500">Última actualización: junio de 2025</p>
+        <p className="text-sm text-slate-500">Última actualización: junio de 2026</p>
       </div>
 
       <div className="my-10 shadow-lg bg-gray-100 p-6 md:p-10 rounded-lg border-t-primary border-t-5 mb-16">
