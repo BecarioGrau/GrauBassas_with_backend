@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const AvisoLegal = () => {
   return (
     <main className="container mx-auto">
@@ -348,29 +350,43 @@ const AvisoLegal = () => {
           <h2 className="h2-aviso-legal">10. Datos de carácter personal</h2>
           <p className="p-aviso-legal">
             La visita a este Web no supone que el Usuario esté obligado a
-            facilitar ninguna información sobre si mismo. En el caso de que
+            facilitar ninguna información sobre sí mismo. En el caso de que
             proporcione el Usuario alguna información de carácter personal, los
-            datos recogidos en este Web serán utilizados con la finalidad, en la
-            forma y con las limitaciones y derechos que recoge la Ley Orgánica
-            15/1999, de Protección de Datos de Carácter Personal dentro del
-            marco de la legislación española. Los datos facilitados por los
-            Usuarios serán incorporados a los ficheros de carácter personal de
-            los que es responsable GRAU BASSAS, donde serán conservados en
-            territorio español de forma confidencial por GRAU BASSAS.
+            datos recogidos serán tratados de conformidad con el Reglamento (UE)
+            2016/679, General de Protección de Datos (RGPD), y la Ley Orgánica
+            3/2018, de Protección de Datos Personales y garantía de los
+            derechos digitales (LOPDGDD), dentro del marco de la legislación
+            española y europea aplicable.
           </p>
           <p className="p-aviso-legal">
-            Los Usuarios que faciliten datos de carácter personal, consienten
-            inequívocamente la incorporación de sus datos a los ficheros, que
-            contengan datos de carácter personal, de los que sea responsable
-            GRAU BASSAS, así como el tratamiento informatizado o no de los
-            mismos con la finalidad de que puedan ser utilizados por GRAU BASSAS
-            para ponerse en contacto con los Usuarios con fines periodístico y/o
-            informativos.
+            El responsable del tratamiento es <strong>Almacenes Graubassas,
+            S.L.</strong> (GRAU BASSAS), con domicilio en la calle Profesor
+            Lozano, 18-20, Urbanización El Sebadal, CP 35008 – Las Palmas de
+            Gran Canaria, y dirección de correo electrónico{" "}
+            <a
+              href="mailto:info@graubassas.com"
+              className="text-primary font-semibold hover:underline"
+            >
+              info@graubassas.com
+            </a>
+            . Los datos facilitados por los Usuarios serán tratados con la
+            finalidad de gestionar las consultas, solicitudes o comunicaciones
+            recibidas a través del Web, así como para mantener la relación
+            comercial o informativa que, en su caso, se establezca con el
+            Usuario.
+          </p>
+          <p className="p-aviso-legal">
+            La base jurídica del tratamiento será, según el caso, el
+            consentimiento del interesado, la ejecución de un contrato o medidas
+            precontractuales, el cumplimiento de obligaciones legales o el
+            interés legítimo de GRAU BASSAS, en los términos previstos en el
+            RGPD.
           </p>
           <p className="p-aviso-legal">
             En el caso de que los datos recogidos se utilizasen para una
-            finalidad distinta para la cual hubiesen sido recabados o recogidos,
-            se requerirá el consentimiento previo de los interesados.
+            finalidad distinta para la cual hubiesen sido recabados, se
+            informará al interesado y, cuando sea necesario, se solicitará su
+            consentimiento previo.
           </p>
           <p className="p-aviso-legal">
             GRAU BASSAS ha adoptado las medidas técnicas y organizativas
@@ -380,21 +396,53 @@ const AvisoLegal = () => {
           </p>
           <p className="p-aviso-legal">
             Los Usuarios cuyos datos sean objeto de tratamiento podrán ejercitar
-            gratuitamente los derechos de oposición, acceso, rectificación y
-            cancelación de sus datos y revocación de su autorización sin efectos
-            retroactivos en los términos especificados en la Ley Orgánica
-            15/1999, de Protección de Datos de Carácter Personal, conforme al
-            procedimiento legalmente establecido. Estos derechos podrán ser
-            ejercitados dirigiéndose por escrito al Departamento responsable del
-            fichero automatizado de GRAU BASSAS.
+            gratuitamente los derechos de <strong>acceso</strong>,{" "}
+            <strong>rectificación</strong>, <strong>supresión</strong>,{" "}
+            <strong>limitación del tratamiento</strong>,{" "}
+            <strong>portabilidad</strong> y <strong>oposición</strong>, así como
+            retirar el consentimiento prestado en cualquier momento, sin que
+            ello afecte a la licitud del tratamiento basado en el consentimiento
+            previo a su retirada.
           </p>
           <p className="p-aviso-legal">
-            Para ejercer su derecho de cancelación, el Usuario deberá enviar un
-            correo cumplimentado junto a la documentación acreditativa.
+            Para ejercer estos derechos, el Usuario podrá dirigirse por escrito
+            a GRAU BASSAS en la dirección postal indicada o mediante correo
+            electrónico a{" "}
+            <a
+              href="mailto:info@graubassas.com"
+              className="text-primary font-semibold hover:underline"
+            >
+              info@graubassas.com
+            </a>
+            , adjuntando copia de un documento acreditativo de su identidad.
+            GRAU BASSAS responderá a las solicitudes en el plazo de{" "}
+            <strong>un mes</strong> desde su recepción, conforme al artículo 12
+            del RGPD, pudiendo prorrogarse hasta <strong>dos meses</strong> más
+            en caso de solicitudes especialmente complejas o numerosas,
+            informando al interesado de dicha prórroga y de sus motivos.
           </p>
           <p className="p-aviso-legal">
-            Para cualquier aclaración o duda, puede ponerse en contacto mediante
-            correo electrónico en la dirección info@graubassas.com
+            Si el Usuario considera que el tratamiento de sus datos personales
+            vulnera la normativa vigente, tiene derecho a presentar una
+            reclamación ante la{" "}
+            <a
+              href="https://www.aepd.es"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary font-semibold hover:underline"
+            >
+              Agencia Española de Protección de Datos (AEPD)
+            </a>
+            , autoridad de control competente en España (
+            <a
+              href="https://www.aepd.es"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary font-semibold hover:underline"
+            >
+              www.aepd.es
+            </a>
+            ).
           </p>
           <p className="p-aviso-legal">
             En el momento de proceder a la recogida de los datos se indicará el
@@ -405,20 +453,16 @@ const AvisoLegal = () => {
             de modo voluntario con el objetivo de que puedan prestarse de modo
             más óptimo los servicios ofertados.
           </p>
-          <p className="p-aviso-legal"></p>
           <p className="p-aviso-legal">
-            El acceso a este Web puede implicar la utilización de cookies. Las
-            cookies son pequeñas cantidades de información que se almacenan en
-            el navegador utilizado por cada Usuario para que el servidor
-            recuerde cierta información que posteriormente únicamente el
-            servidor que la implementó leerá. Las cookies tienen, generalmente,
-            una duración limitada en el tiempo. Ninguna cookie permite que pueda
-            contactarse con el número de teléfono del Usuario, su dirección de
-            correo electrónico o con cualquier otro medio de contacto. Ninguna
-            cookie puede extraer información del disco duro del Usuario o robar
-            información personal. Aquellos Usuarios que no deseen recibir
-            cookies o quieran ser informados de su fijación pueden configurar su
-            navegador a tal efecto.
+            El acceso a este Web puede implicar la utilización de cookies. Para
+            más información consulte nuestra{" "}
+            <Link
+              to="/politica-de-cookies"
+              className="text-primary font-semibold hover:underline"
+            >
+              Política de Cookies
+            </Link>
+            .
           </p>
         </section>
         <section>

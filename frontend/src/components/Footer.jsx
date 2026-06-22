@@ -113,6 +113,13 @@ export default function Footer() {
             Aviso Legal
           </a>
           <span>|</span>
+          <a
+            href="/politica-de-cookies"
+            className="hover:text-white transition-colors"
+          >
+            Política de cookies
+          </a>
+          <span>|</span>
           <a href="#" className="hover:text-white transition-colors">
             Terminos y Condiciones
           </a>
