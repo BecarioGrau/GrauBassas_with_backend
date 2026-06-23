@@ -52,6 +52,10 @@
             {
               "label": "AISI-446",
               "href": "/productos/materiales/inoxidables/AISI-446"
+            },
+            {
+              "label": "Equivalencias",
+              "href": "/productos/materiales/inoxidables?tab=Equivalencias"
             }
           ]
         },
@@ -212,6 +216,10 @@
                   "href": "/productos/materiales/aluminios/AW.7050"
                 }
               ]
+            },
+            {
+              "label": "Equivalencias",
+              "href": "/productos/materiales/aluminios?tab=Equivalencias"
             }
           ]
         },
@@ -421,7 +429,7 @@
         },
         {
           "label": "Hierros de Fundición",
-          "href": "productos/materiales/hierros_de_fundicion",
+          "href": "/productos/materiales/hierros_de_fundicion",
           "children": [
             {
               "label": "DIN1691-GG-25",
@@ -434,6 +442,10 @@
             {
               "label": "GG-60",
               "href": "/productos/materiales/hierros_de_fundicion/gg-60"
+            },
+            {
+              "label": "Equivalencias",
+              "href": "/productos/materiales/hierros_de_fundicion?tab=Equivalencias"
             }
           ]
         },
@@ -448,7 +460,11 @@
               "href": "/productos/materiales/bronce/W-ALNI"
             },
             { "label": "PB-10", "href": "/productos/materiales/bronce/PB-10" },
-            { "label": "CUSN6", "href": "/productos/materiales/bronce/CUSN6" }
+            { "label": "CUSN6", "href": "/productos/materiales/bronce/CUSN6" },
+            {
+              "label": "Equivalencias",
+              "href": "/productos/materiales/bronce?tab=Equivalencias"
+            }
           ]
         },
         {
@@ -466,6 +482,10 @@
             {
               "label": "CuZn40PB2",
               "href": "/productos/materiales/laton/CuZn40PB2"
+            },
+            {
+              "label": "Equivalencias",
+              "href": "/productos/materiales/laton?tab=Equivalencias"
             }
           ]
         },
@@ -475,7 +495,11 @@
           "children": [
             { "label": "Cu-ETP", "href": "/productos/materiales/cobre/cu-etp" },
             { "label": "CuNi", "href": "/productos/materiales/cobre/cuni" },
-            { "label": "CuDHP", "href": "/productos/materiales/cobre/cudhP" }
+            { "label": "CuDHP", "href": "/productos/materiales/cobre/cudhP" },
+            {
+              "label": "Equivalencias",
+              "href": "/productos/materiales/cobre?tab=Equivalencias"
+            }
           ]
         },
         {
@@ -483,7 +507,11 @@
           "href": "/productos/materiales/zinc",
           "children": [
             { "label": "ZG-2", "href": "/productos/materiales/zinc/zg-2" },
-            { "label": "ZG-4", "href": "/productos/materiales/zinc/zg-4" }
+            { "label": "ZG-4", "href": "/productos/materiales/zinc/zg-4" },
+            {
+              "label": "Equivalencias",
+              "href": "/productos/materiales/zinc?tab=Equivalencias"
+            }
           ]
         },
         {

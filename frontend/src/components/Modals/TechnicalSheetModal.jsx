@@ -1,5 +1,5 @@
 import React from "react";
-import DynamicTable from "./DynamicTable";
+import TechnicalSheetContent from "../ProductDetails/TechnicalSheetContent";
 
 const TechnicalSheetModal = ({ isOpen, onClose, data, template }) => {
   if (!isOpen || !data) return null;
@@ -54,36 +54,13 @@ const TechnicalSheetModal = ({ isOpen, onClose, data, template }) => {
             </div>
           </header>
 
-          <div className="grid gap-5 mb-5 ">
-            <section>
-              <h3 className="text-sm font-black uppercase bg-black text-white px-2 py-1 inline-block">
-                Descripción / Usos
-              </h3>
-              <div className=" font-bold italic text-md leading-relaxed text-justify">
-                {data.specs && (
-                  <ul className="mt-3 space-y-1">
-                    {data.specs.map((item, i) => (
-                      <li key={i} className="text-sm flex items-start gap-2">
-                        <span className="font-bold">•</span> {item}
-                      </li>
-                    ))}
-                  </ul>
-                )}
-              </div>
-            </section>
-            <section>
-              <h3 className="text-sm font-black uppercase bg-black text-white px-2 py-1 inline-block mb-3">
-                Estado de Suministro
-              </h3>
-              <p className="text-sm font-bold italic">
-                {data.suministro || "Consultar"}
-              </p>
-            </section>
+          <div className="grid gap-5 mb-5">
+            <TechnicalSheetContent
+              data={data}
+              template={template}
+              variant="modal"
+            />
           </div>
-
-          {template?.sections?.map((section, idx) => (
-            <DynamicTable key={idx} section={section} data={data} />
-          ))}
         </div>
       </div>
     </div>

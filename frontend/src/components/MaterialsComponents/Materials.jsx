@@ -45,6 +45,7 @@ const ICON_MAP = {
 
 const EQUIVALENCIAS_TABLE_CONFIG = {
   title: "Tabla de Equivalencias Internacionales",
+  linkColumn: "agb",
   columns: [
     { header: "AGB", key: "agb" },
     { header: "WNr.", key: "wnr" },
@@ -77,17 +78,42 @@ const Materials = () => {
   }, [productsData, title, loading]);
 
   const subCategories = useMemo(() => {
-    const hasTabs = material?.children?.some((child) =>
+    if (!material?.children?.length) return [];
+
+    const equivalenciasTab = material.children.find(
+      (c) => c.label === "Equivalencias",
+    );
+    const contentChildren = material.children.filter(
+      (c) => c.label !== "Equivalencias",
+    );
+    const eqEntry = equivalenciasTab || {
+      label: "Equivalencias",
+      href: `${material.href}?tab=Equivalencias`,
+    };
+
+    const hasDeepTabs = contentChildren.some((child) =>
       child.children?.some((grandChild) => grandChild.children?.length > 0),
     );
-    return hasTabs ? material.children : [];
+
+    if (hasDeepTabs) {
+      return [...contentChildren, eqEntry];
+    }
+
+    return [
+      {
+        label: "Calidades",
+        href: material.href,
+        children: contentChildren,
+      },
+      eqEntry,
+    ];
   }, [material]);
 
   const [activeTab, setActiveTab] = useState("");
-  const [acerosData, setAcerosData] = useState([]);
+  const [catalogData, setCatalogData] = useState([]);
 
   useEffect(() => {
-    setAcerosData([]);
+    setCatalogData([]);
     setActiveTab("");
   }, [title]);
 
@@ -120,19 +146,18 @@ const Materials = () => {
   }, [location.hash, activeTab]);
 
   useEffect(() => {
-    if (activeTab === "Equivalencias" && material && acerosData.length === 0) {
-      const categorySlug = slugify(material.label);
-      getProductsByCategory(categorySlug)
-        .then((data) => setAcerosData(data))
+    if (activeTab === "Equivalencias" && title && catalogData.length === 0) {
+      getProductsByCategory(title)
+        .then((data) => setCatalogData(data))
         .catch((err) =>
-          console.error(`Error cargando catálogo ${categorySlug}:`, err),
+          console.error(`Error cargando catálogo ${title}:`, err),
         );
     }
-  }, [activeTab, material, acerosData.length]);
+  }, [activeTab, title, catalogData.length]);
 
   const normalizedEquivalencias = useMemo(() => {
-    if (!acerosData) return [];
-    return acerosData.map((p) => ({
+    if (!catalogData.length) return [];
+    return catalogData.map((p) => ({
       agb: p.equivalencias?.agb || p.title || "-",
       wnr: p.equivalencias?.wnr || p.data?.wnr || "-",
       europa: p.equivalencias?.europa || "-",
@@ -142,8 +167,9 @@ const Materials = () => {
       italia: p.equivalencias?.italia || "-",
       usa: p.equivalencias?.usa || p.data?.aisi || "-",
       japon: p.equivalencias?.japon || "-",
+      _href: `/productos/materiales/${title}/${encodeURIComponent(p.title)}`,
     }));
-  }, [acerosData]);
+  }, [catalogData, title]);
 
   if (loading)
     return (
@@ -160,7 +186,7 @@ const Materials = () => {
 
   const displayGroups =
     subCategories.find((c) => c.label === activeTab)?.children ||
-    material?.children ||
+    material?.children?.filter((c) => c.label !== "Equivalencias") ||
     [];
 
   return (
@@ -217,10 +243,16 @@ const Materials = () => {
         <section className="space-y-16">
           {activeTab === "Equivalencias" ? (
             <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 overflow-x-auto">
-              <DynamicTable
-                section={EQUIVALENCIAS_TABLE_CONFIG}
-                data={{ data: normalizedEquivalencias }}
-              />
+              {normalizedEquivalencias.length > 0 ? (
+                <DynamicTable
+                  section={EQUIVALENCIAS_TABLE_CONFIG}
+                  data={{ data: normalizedEquivalencias }}
+                />
+              ) : (
+                <div className="py-16 text-center text-gray-400 italic">
+                  No hay datos de equivalencias para este material.
+                </div>
+              )}
             </div>
           ) : displayGroups.length > 0 ? (
             displayGroups.some(

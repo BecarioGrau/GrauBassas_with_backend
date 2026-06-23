@@ -2,10 +2,9 @@ import React, { useState, useEffect, useMemo } from "react";
 import { Link, useParams, useLocation } from "react-router-dom";
 import ProductsDetailsHero from "./HeroComponents/ProductsDetailsHero";
 import MaterialsCard from "./MaterialsComponents/MaterialsCard";
-import TechnicalSheetModal from "./Modals/TechnicalSheetModal";
-import WeightModal from "./Modals/WeightModal";
+import TechnicalSheetContent from "./ProductDetails/TechnicalSheetContent";
+import ProductWeightsPanel from "./ProductDetails/ProductWeightsPanel";
 import MedidaSection from "./MaterialsComponents/MedidaSection";
-import useIsMobile from "../hooks/useIsMobile";
 import { getProductWithTemplate } from "../services/catalogService";
 import {
   LayersIcon,
@@ -25,17 +24,24 @@ const ICON_MAP = {
   Tubo: <TubosIcon />,
 };
 
-const SectionHeader = ({ title }) => (
-  <div className="mb-8 text-center md:text-left">
-    <h2 className="text-2xl md:text-3xl font-black text-gray-900 mb-2 tracking-tight uppercase">
-      {title}
-    </h2>
-    <div className="w-16 h-1 bg-primary mb-4 mx-auto md:mx-0"></div>
-  </div>
-);
+const TABS = [
+  { id: "propiedades", label: "Propiedades" },
+  { id: "pesos", label: "Pesos teóricos" },
+];
+
+const SLUG_TO_MATERIAL = {
+  aceros: "acero",
+  aluminios: "aluminio",
+  inoxidables: "inox",
+  hierros_fundicion: "acero",
+  bronce: "bronce",
+  laton: "laton",
+  cobre: "cobre",
+  zinc: "zinc",
+  plasticos_mecanizados: "pomc",
+};
 
 const ProductDetails = () => {
-  const isMobile = useIsMobile();
   const { title } = useParams();
   const { pathname } = useLocation();
   const [data, setData] = useState({
@@ -44,8 +50,7 @@ const ProductDetails = () => {
     allTemplates: null,
   });
   const [loading, setLoading] = useState(true);
-  const [isSheetOpen, setIsSheetOpen] = useState(false);
-  const [isWeightModalOpen, setIsWeightModalOpen] = useState(false);
+  const [activeTab, setActiveTab] = useState("propiedades");
   const [selectedCut, setSelectedCut] = useState(null);
 
   const categorySlug = useMemo(() => pathname.split("/")[3] || "", [pathname]);
@@ -62,43 +67,38 @@ const ProductDetails = () => {
     getProductWithTemplate(categorySlug, title)
       .then(({ calidad, template, allTemplates }) => {
         setData({ calidad, template, allTemplates });
+        const firstCut = calidad?.cortes?.[0]?.label;
+        if (firstCut) setSelectedCut(firstCut);
       })
       .catch((err) => console.error("Error cargando producto:", err))
       .finally(() => setLoading(false));
   }, [title, categorySlug]);
 
-  if (loading)
+  if (loading) {
     return (
       <div className="h-screen flex justify-center items-center font-bold text-primary">
         Cargando...
       </div>
     );
-  if (!data.calidad)
+  }
+
+  if (!data.calidad) {
     return (
       <h2 className="flex justify-center items-center h-screen text-3xl font-bold">
         Calidad no encontrada
       </h2>
     );
+  }
 
-  const { calidad, template, allTemplates } = data;
-
-  const SLUG_TO_MATERIAL = {
-    aceros: "acero",
-    aluminios: "aluminio",
-    inoxidables: "inox",
-    hierros_fundicion: "acero",
-    bronce: "bronce",
-    laton: "laton",
-    cobre: "cobre",
-    zinc: "zinc",
-    plasticos_mecanizados: "pomc",
-  };
+  const { calidad, template } = data;
   const materialKey = SLUG_TO_MATERIAL[categorySlug.toLowerCase()] || "acero";
+  const cortes = calidad.cortes || [];
 
   return (
     <main className="layout-container flex h-full grow flex-col">
       <ProductsDetailsHero calidad={calidad} title={title} />
-      <div className="flex items-center justify-between px-10">
+
+      <div className="container mx-auto px-4 md:px-6">
         <nav className="flex gap-2 text-sm font-semibold py-4 overflow-x-auto whitespace-nowrap">
           <Link to="/productos" className="hover:text-primary">
             Productos
@@ -122,64 +122,109 @@ const ProductDetails = () => {
           <span className="text-gray-900 capitalize">{title}</span>
         </nav>
 
-        <button
-          className="px-4 py-2 bg-primary text-white hover:bg-primary-dark cursor-pointer transition-all shadow-lg flex items-center gap-2 font-bold"
-          onClick={() => setIsSheetOpen(true)}
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={2}
-            stroke="currentColor"
-            className="w-5 h-5"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z"
-            />
-          </svg>
-          {isMobile ? "" : "Ver Ficha Técnica"}
-        </button>
-      </div>
-
-      <section className="pt-5 pb-25 container mx-auto px-6">
-        <SectionHeader title="Pesos Teóricos" />
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {calidad.cortes &&
-            calidad.cortes.map((corte, idx) => (
-              <MaterialsCard
-                key={idx}
-                producto={{
-                  label: corte.label,
-                  href: corte.href || "#",
-                  tag: "Ver medidas",
-                }}
-                icon={ICON_MAP[corte.label]}
-                onClick={() => {
-                  setSelectedCut(corte.label);
-                  setIsWeightModalOpen(true);
-                }}
-              />
-            ))}
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-8 p-4 bg-slate-50 border border-slate-200 rounded-xl">
+          <div>
+            <span className="block text-[10px] font-black uppercase text-slate-400 tracking-widest">
+              Calidad
+            </span>
+            <span className="text-sm font-bold text-slate-800">
+              {calidad.equivalencias?.agb || calidad.title}
+            </span>
+          </div>
+          <div>
+            <span className="block text-[10px] font-black uppercase text-slate-400 tracking-widest">
+              Suministro
+            </span>
+            <span className="text-sm font-bold text-slate-800">
+              {calidad.suministro || calidad.suministros || "Consultar"}
+            </span>
+          </div>
+          <div className="col-span-2">
+            <span className="block text-[10px] font-black uppercase text-slate-400 tracking-widest">
+              Material
+            </span>
+            <span className="text-sm font-bold text-slate-800 capitalize">
+              {categoryName}
+            </span>
+          </div>
         </div>
-      </section>
 
-      <TechnicalSheetModal
-        isOpen={isSheetOpen}
-        onClose={() => setIsSheetOpen(false)}
-        data={calidad}
-        template={template}
-      />
+        <div className="mb-16">
+          <div className="flex flex-wrap gap-1">
+            {TABS.map((tab) => {
+              const isActive = activeTab === tab.id;
+              return (
+                <button
+                  key={tab.id}
+                  type="button"
+                  onClick={() => setActiveTab(tab.id)}
+                  className={`px-5 md:px-8 py-3 text-xs md:text-sm font-bold uppercase tracking-wide border border-slate-300 rounded-t-lg transition-colors cursor-pointer ${
+                    isActive
+                      ? "bg-slate-100 border-b-0 text-slate-900 relative z-10"
+                      : "bg-white text-slate-600 hover:bg-slate-50"
+                  }`}
+                >
+                  {tab.label}
+                </button>
+              );
+            })}
+          </div>
 
-      <WeightModal
-        isOpen={isWeightModalOpen}
-        onClose={() => setIsWeightModalOpen(false)}
-        selectedCut={selectedCut}
-        calidad={calidad}
-        materialType={materialKey}
-      />
+          <div className="bg-slate-100 border border-slate-300 rounded-b-xl rounded-tr-xl p-6 md:p-10 shadow-sm">
+            {activeTab === "propiedades" && (
+              <TechnicalSheetContent data={calidad} template={template} />
+            )}
+
+            {activeTab === "pesos" && (
+              <div className="space-y-8">
+                {cortes.length > 0 ? (
+                  <>
+                    <div>
+                      <p className="text-[10px] font-black uppercase text-slate-400 tracking-widest mb-3">
+                        Tipo de corte
+                      </p>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                        {cortes.map((corte, idx) => (
+                          <div
+                            key={idx}
+                            className={
+                              selectedCut === corte.label
+                                ? "ring-2 ring-primary rounded-xl"
+                                : ""
+                            }
+                          >
+                            <MaterialsCard
+                              producto={{
+                                label: corte.label,
+                                href: corte.href || "#",
+                                tag:
+                                  selectedCut === corte.label
+                                    ? "Seleccionado"
+                                    : "Ver pesos",
+                              }}
+                              icon={ICON_MAP[corte.label]}
+                              onClick={() => setSelectedCut(corte.label)}
+                            />
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                    <ProductWeightsPanel
+                      calidad={calidad}
+                      selectedCut={selectedCut}
+                      materialType={materialKey}
+                    />
+                  </>
+                ) : (
+                  <p className="text-sm text-slate-500 italic">
+                    No hay tipos de corte definidos para esta calidad.
+                  </p>
+                )}
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
 
       <MedidaSection />
     </main>

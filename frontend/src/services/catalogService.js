@@ -123,8 +123,29 @@ export function toDisplayProduct(product) {
   };
 }
 
+/** Slug de ruta → archivo JSON / API (cuando difieren) */
+const CATEGORY_SLUG_ALIASES = {
+  hierros_de_fundicion: "hierros_fundidos",
+};
+
+const API_KIND_ALIASES = {
+  hierros_fundidos: "hierros_fundicion",
+  hierros_de_fundicion: "hierros_fundicion",
+};
+
+function resolveJsonSlug(categorySlug) {
+  const slug = categorySlug?.toLowerCase() || "";
+  return CATEGORY_SLUG_ALIASES[slug] || slug;
+}
+
+function resolveApiKind(categorySlug) {
+  const slug = categorySlug?.toLowerCase() || "";
+  const jsonSlug = resolveJsonSlug(slug);
+  return API_KIND_ALIASES[jsonSlug] || API_KIND_ALIASES[slug] || slug;
+}
+
 async function fetchJsonProducts(categorySlug) {
-  const file = CATEGORY_JSON_FILES[categorySlug?.toLowerCase()];
+  const file = CATEGORY_JSON_FILES[resolveJsonSlug(categorySlug)];
   if (!file) return [];
   try {
     const res = await fetch(`/data/${file}`);
@@ -136,13 +157,8 @@ async function fetchJsonProducts(categorySlug) {
   }
 }
 
-/** Slug de ruta → material_kind en Django (cuando difieren) */
-const API_KIND_ALIASES = {
-  hierros_fundidos: "hierros_fundicion",
-};
-
 async function fetchApiProductsSafe(categorySlug) {
-  const apiKind = API_KIND_ALIASES[categorySlug] || categorySlug;
+  const apiKind = resolveApiKind(categorySlug);
   try {
     const data = await fetchApiProducts(apiKind);
     return Array.isArray(data) ? data : [];

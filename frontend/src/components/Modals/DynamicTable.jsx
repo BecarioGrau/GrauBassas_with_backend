@@ -1,15 +1,27 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const Th = ({ children, className = "", ...props }) => (
+const Th = ({ children, className = "", isPage = false, ...props }) => (
   <th
-    className={`border border-black p-1 uppercase font-black bg-gray-100 ${className}`}
+    className={`${isPage ? "border border-slate-300 p-2 font-semibold bg-slate-100 text-slate-800 normal-case" : "border border-black p-1 uppercase font-black bg-gray-100"} ${className}`}
     {...props}
   >
     {children}
   </th>
 );
 
-const DynamicTable = ({ section, data }) => {
+const DynamicTable = ({ section, data, variant = "modal" }) => {
+  const isPage = variant === "page";
+  const linkColumn = section.linkColumn;
+  const tableClass = isPage
+    ? "hidden md:table w-full text-sm border-collapse border border-slate-300 text-center min-w-[640px]"
+    : "hidden md:table print:table w-full text-[11px] border-collapse border-2 border-black text-center table-fixed";
+  const mobileTableClass = isPage
+    ? "block md:hidden space-y-4"
+    : "block md:hidden print:hidden space-y-4";
+  const sectionTitleClass = isPage
+    ? "text-xs font-bold uppercase rounded-full border border-black px-5 py-1.5 inline-block mb-4"
+    : "text-sm font-black uppercase border-b-2 border-black mb-4 inline-block";
   const rawRows = section.dataSource ? data[section.dataSource] : data.data;
   const rows = Array.isArray(rawRows) ? rawRows : [rawRows];
 
@@ -53,6 +65,7 @@ const DynamicTable = ({ section, data }) => {
 
   const renderCellContent = (row, key) => {
     const val = row?.[key];
+    const innerBorder = isPage ? "border-b border-slate-300" : "border-b border-black";
 
     if (Array.isArray(val)) {
       return (
@@ -61,7 +74,7 @@ const DynamicTable = ({ section, data }) => {
             <div
               key={i}
               className={`p-2 flex-1 flex items-center justify-center ${
-                i !== val.length - 1 ? "border-b border-black" : ""
+                i !== val.length - 1 ? innerBorder : ""
               }`}
             >
               {item}
@@ -73,42 +86,79 @@ const DynamicTable = ({ section, data }) => {
 
     const displayValue =
       val !== undefined && val !== null && val !== "—" ? val : "-";
+
+    if (linkColumn === key && row?._href && displayValue !== "-") {
+      return (
+        <div className="p-2">
+          <Link
+            to={row._href}
+            className="text-primary font-bold hover:underline"
+          >
+            {displayValue}
+          </Link>
+        </div>
+      );
+    }
+
     return <div className="p-2">{displayValue}</div>;
   };
 
-  return (
-    <section className="mb-4 break-inside-avoid">
-      <h3 className="text-sm font-black uppercase border-b-2 border-black mb-4 inline-block">
-        {section.title}
-      </h3>
+  const renderMobileCell = (row, col) => {
+    const val = row?.[col.key];
+    const displayValue =
+      val !== undefined && val !== null && val !== "—" ? val : "-";
+    const isLink = linkColumn === col.key && row?._href && displayValue !== "-";
 
-      <div className="block md:hidden print:hidden space-y-4">
+    if (isLink) {
+      return (
+        <Link
+          to={row._href}
+          className="text-primary font-bold hover:underline"
+        >
+          {displayValue}
+        </Link>
+      );
+    }
+    return renderCellContent(row, col.key);
+  };
+
+  const mobileCardClass = isPage
+    ? "border border-slate-300 divide-y divide-slate-300"
+    : "border-2 border-black divide-y divide-black";
+  const mobileLabelClass = isPage
+    ? "w-1/3 bg-slate-100 p-2 font-semibold border-r border-slate-300 flex items-center justify-center text-center text-xs"
+    : "w-1/3 bg-gray-100 p-2 font-black uppercase border-r border-black flex items-center justify-center text-center";
+
+  return (
+    <section className={`${isPage ? "mb-8" : "mb-4"} break-inside-avoid`}>
+      <h3 className={sectionTitleClass}>{section.title}</h3>
+
+      <div className={mobileTableClass}>
         {rows.map((row, rowIndex) => (
-          <div
-            key={rowIndex}
-            className="border-2 border-black divide-y divide-black"
-          >
+          <div key={rowIndex} className={mobileCardClass}>
             {flatColumns.map((col, colIndex) => (
-              <div key={colIndex} className="flex text-[11px]">
-                <div className="w-1/3 bg-gray-100 p-2 font-black uppercase border-r border-black flex items-center justify-center text-center">
+              <div key={colIndex} className={`flex ${isPage ? "text-sm" : "text-[11px]"}`}>
+                <div className={mobileLabelClass}>
                   {col.parentHeader
                     ? `${col.parentHeader} (${col.header})`
                     : col.header}
                 </div>
                 <div className="w-2/3 font-bold flex flex-col justify-center text-center">
-                  {renderCellContent(row, col.key)}
+                  {renderMobileCell(row, col)}
                 </div>
               </div>
             ))}
           </div>
         ))}
       </div>
-      <table className="hidden md:table print:table w-full text-[11px] border-collapse border-2 border-black text-center table-fixed">
+      <div className={isPage ? "overflow-x-auto hidden md:block" : ""}>
+        <table className={tableClass}>
         <thead>
           <tr>
             {filteredColumns.map((col, i) => (
               <Th
                 key={i}
+                isPage={isPage}
                 colSpan={col.subColumns?.length || 1}
                 rowSpan={col.subColumns ? 1 : 2}
               >
@@ -117,11 +167,13 @@ const DynamicTable = ({ section, data }) => {
             ))}
           </tr>
           {filteredColumns.some((c) => c.subColumns) && (
-            <tr className="bg-gray-50 text-[10px]">
+            <tr className={isPage ? "text-xs" : "bg-gray-50 text-[10px]"}>
               {filteredColumns
                 .flatMap((col) => col.subColumns || [])
                 .map((sub, i) => (
-                  <Th key={i}>{sub.header}</Th>
+                  <Th key={i} isPage={isPage}>
+                    {sub.header}
+                  </Th>
                 ))}
             </tr>
           )}
@@ -134,7 +186,7 @@ const DynamicTable = ({ section, data }) => {
                   return col.subColumns.map((sub) => (
                     <td
                       key={sub.key}
-                      className="border border-black p-0 vertical-align-top"
+                      className={`border ${isPage ? "border-slate-300" : "border-black"} p-0 align-top`}
                     >
                       {renderCellContent(row, sub.key)}
                     </td>
@@ -144,7 +196,7 @@ const DynamicTable = ({ section, data }) => {
                 return (
                   <td
                     key={col.key}
-                    className={`border border-black p-0 ${isHighlight ? "font-bold bg-gray-50" : ""}`}
+                    className={`border ${isPage ? "border-slate-300" : "border-black"} p-0 ${isHighlight ? "font-bold bg-gray-50" : ""}`}
                   >
                     {renderCellContent(row, col.key)}
                   </td>
@@ -154,6 +206,7 @@ const DynamicTable = ({ section, data }) => {
           ))}
         </tbody>
       </table>
+      </div>
     </section>
   );
 };
