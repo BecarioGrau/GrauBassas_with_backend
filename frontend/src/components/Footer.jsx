@@ -114,6 +114,13 @@ export default function Footer() {
           </a>
           <span>|</span>
           <a
+            href="/politica-de-privacidad"
+            className="hover:text-white transition-colors"
+          >
+            Privacidad
+          </a>
+          <span>|</span>
+          <a
             href="/politica-de-cookies"
             className="hover:text-white transition-colors"
           >

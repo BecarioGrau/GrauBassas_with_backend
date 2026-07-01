@@ -454,8 +454,16 @@ const AvisoLegal = () => {
             más óptimo los servicios ofertados.
           </p>
           <p className="p-aviso-legal">
-            El acceso a este Web puede implicar la utilización de cookies. Para
-            más información consulte nuestra{" "}
+            Para información detallada sobre el tratamiento de datos personales,
+            consulte nuestra{" "}
+            <Link
+              to="/politica-de-privacidad"
+              className="text-primary font-semibold hover:underline"
+            >
+              Política de Privacidad
+            </Link>
+            . El acceso a este Web puede implicar la utilización de cookies;
+            para más información consulte nuestra{" "}
             <Link
               to="/politica-de-cookies"
               className="text-primary font-semibold hover:underline"

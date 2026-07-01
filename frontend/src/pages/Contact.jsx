@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import Hero from "../components/HeroComponents/Hero";
 import useIsMobile from "../hooks/useIsMobile";
 import {
@@ -11,6 +12,7 @@ import {
 export default function Contact() {
   const isMobile = useIsMobile();
   const [acceptedPrivacy, setAcceptedPrivacy] = useState(false);
+  const [acceptedMarketing, setAcceptedMarketing] = useState(false);
 
   const desktopHeroHeight = "430px";
   const mobileHeroHeight = "auto";
@@ -38,10 +40,14 @@ export default function Contact() {
       return;
     }
 
-    console.log("Contact form submitted:", payload);
+    console.log("Contact form submitted:", {
+      ...payload,
+      marketing_consent: acceptedMarketing,
+    });
     alert("Mensaje enviado con éxito.");
     e.target.reset();
     setAcceptedPrivacy(false);
+    setAcceptedMarketing(false);
   }
 
   return (
@@ -168,29 +174,59 @@ export default function Contact() {
                 />
               </div>
 
-              <div className="flex items-start">
-                <div className="flex items-center h-5">
-                  <input
-                    required
-                    className="focus:ring-primary h-4 w-4 text-primary border-gray-300 rounded cursor-pointer"
-                    id="privacy"
-                    name="privacy"
-                    type="checkbox"
-                    checked={acceptedPrivacy}
-                    onChange={(e) => setAcceptedPrivacy(e.target.checked)}
-                  />
+              <div className="space-y-4">
+                <div className="flex items-start">
+                  <div className="flex items-center h-5">
+                    <input
+                      required
+                      className="focus:ring-primary h-4 w-4 text-primary border-gray-300 rounded cursor-pointer"
+                      id="privacy"
+                      name="privacy"
+                      type="checkbox"
+                      checked={acceptedPrivacy}
+                      onChange={(e) => setAcceptedPrivacy(e.target.checked)}
+                    />
+                  </div>
+                  <div className="ml-3 text-sm">
+                    <label
+                      className="font-medium cursor-pointer text-gray-700"
+                      htmlFor="privacy"
+                    >
+                      He leído y acepto la{" "}
+                      <Link
+                        to="/politica-de-privacidad"
+                        className="text-primary hover:underline"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Política de Privacidad
+                      </Link>
+                      . *
+                    </label>
+                  </div>
                 </div>
-                <div className="ml-3 text-sm">
-                  <label
-                    className="font-medium cursor-pointer text-gray-700"
-                    htmlFor="privacy"
-                  >
-                    He leído y acepto la{" "}
-                    <a className="text-primary hover:underline" href="#">
-                      política de privacidad
-                    </a>
-                    .
-                  </label>
+
+                <div className="flex items-start">
+                  <div className="flex items-center h-5">
+                    <input
+                      className="focus:ring-primary h-4 w-4 text-primary border-gray-300 rounded cursor-pointer"
+                      id="marketing"
+                      name="marketing"
+                      type="checkbox"
+                      checked={acceptedMarketing}
+                      onChange={(e) => setAcceptedMarketing(e.target.checked)}
+                    />
+                  </div>
+                  <div className="ml-3 text-sm">
+                    <label
+                      className="font-medium cursor-pointer text-gray-700"
+                      htmlFor="marketing"
+                    >
+                      Acepto recibir comunicaciones comerciales de Grau Bassas
+                      (novedades, productos y promociones). Puedo darme de baja
+                      en cualquier momento.
+                    </label>
+                  </div>
                 </div>
               </div>
 
