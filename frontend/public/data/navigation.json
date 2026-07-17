@@ -572,9 +572,146 @@
           "label": "Plásticos Industriales",
           "href": "/productos/materiales/plasticos_industriales",
           "children": [
-            { "label": "Laminados", "href": "/productos#" },
-            { "label": "Tuberías", "href": "/productos#" },
-            { "label": "Perfiles", "href": "/productos#" }
+            {
+              "label": "Laminados y chapas",
+              "href": "/productos/materiales/plasticos_industriales",
+              "children": [
+                {
+                  "label": "Akyprint Blanco UV",
+                  "href": "/productos/materiales/plasticos_industriales/akyprint_blanco_uv"
+                },
+                {
+                  "label": "Plancha PP Alveloar Negro",
+                  "href": "/productos/materiales/plasticos_industriales/plancha_pp_alveloar_negro"
+                },
+                {
+                  "label": "Composite",
+                  "href": "/productos/materiales/plasticos_industriales/composite"
+                },
+                {
+                  "label": "Composite Ignifugo",
+                  "href": "/productos/materiales/plasticos_industriales/composite_ignifugo"
+                },
+                {
+                  "label": "LARSON FR",
+                  "href": "/productos/materiales/plasticos_industriales/larson_fr"
+                },
+                {
+                  "label": "Carton PLuma/ Kapa Line",
+                  "href": "/productos/materiales/plasticos_industriales/carton_pluma_kapa_line"
+                },
+                {
+                  "label": "Fenolico Trespa",
+                  "href": "/productos/materiales/plasticos_industriales/fenolico_trespa"
+                },
+                {
+                  "label": "Arpa INT",
+                  "href": "/productos/materiales/plasticos_industriales/arpa_int"
+                },
+                {
+                  "label": "Metacrilato",
+                  "href": "/productos/materiales/plasticos_industriales/metacrilato"
+                },
+                {
+                  "label": "Policarbonato Celular",
+                  "href": "/productos/materiales/plasticos_industriales/policarbonato_celular"
+                },
+                {
+                  "label": "PVC Compacto",
+                  "href": "/productos/materiales/plasticos_industriales/pvc_compacto"
+                },
+                {
+                  "label": "PVC Espumado",
+                  "href": "/productos/materiales/plasticos_industriales/pvc_espumado"
+                },
+                {
+                  "label": "PVC Sandwich",
+                  "href": "/productos/materiales/plasticos_industriales/pvc_sandwich"
+                },
+                {
+                  "label": "PVC Semi-Rigido",
+                  "href": "/productos/materiales/plasticos_industriales/pvc_semi-rigido"
+                }
+              ]
+            },
+            {
+              "label": "Perfiles",
+              "href": "/productos/materiales/plasticos_industriales",
+              "children": [
+                {
+                  "label": "Perfil U",
+                  "href": "/productos/materiales/plasticos_industriales/perfil_u"
+                },
+                {
+                  "label": "Perfil L",
+                  "href": "/productos/materiales/plasticos_industriales/perfil_l"
+                },
+                {
+                  "label": "Fenolico Perfil U",
+                  "href": "/productos/materiales/plasticos_industriales/fenolico_perfil_u"
+                }
+              ]
+            },
+            {
+              "label": "Accesorios fenólicos",
+              "href": "/productos/materiales/plasticos_industriales",
+              "children": [
+                {
+                  "label": "Fenolico Conector Doble 90º Tubo",
+                  "href": "/productos/materiales/plasticos_industriales/fenolico_conector_doble_90_tubo"
+                },
+                {
+                  "label": "Fenolico Union Tubo",
+                  "href": "/productos/materiales/plasticos_industriales/fenolico_union_tubo"
+                },
+                {
+                  "label": "Fenolico Percha/ Tope Puerta",
+                  "href": "/productos/materiales/plasticos_industriales/fenolico_percha_tope_puerta"
+                },
+                {
+                  "label": "Fenolico Enganche 90º",
+                  "href": "/productos/materiales/plasticos_industriales/fenolico_enganche_90"
+                },
+                {
+                  "label": "Fenolico Pinza U",
+                  "href": "/productos/materiales/plasticos_industriales/fenolico_pinza_u"
+                },
+                {
+                  "label": "Fenolico Kit De Puerta",
+                  "href": "/productos/materiales/plasticos_industriales/fenolico_kit_de_puerta"
+                },
+                {
+                  "label": "Fenolico Pinza Escuada",
+                  "href": "/productos/materiales/plasticos_industriales/fenolico_pinza_escuada"
+                },
+                {
+                  "label": "Fenolico Cierre de Puerta Corredera",
+                  "href": "/productos/materiales/plasticos_industriales/fenolico_cierre_de_puerta_corredera"
+                }
+              ]
+            },
+            {
+              "label": "Adhesivos y sellantes",
+              "href": "/productos/materiales/plasticos_industriales",
+              "children": [
+                {
+                  "label": "Bote Pegamento Ligero",
+                  "href": "/productos/materiales/plasticos_industriales/bote_pegamento_ligero"
+                },
+                {
+                  "label": "Bote Pegamento Denso",
+                  "href": "/productos/materiales/plasticos_industriales/bote_pegamento_denso"
+                },
+                {
+                  "label": "Silicona",
+                  "href": "/productos/materiales/plasticos_industriales/silicona"
+                }
+              ]
+            },
+            {
+              "label": "Equivalencias",
+              "href": "/productos/materiales/plasticos_industriales?tab=Equivalencias"
+            }
           ]
         },
         {

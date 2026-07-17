@@ -39,6 +39,7 @@ const SLUG_TO_MATERIAL = {
   cobre: "cobre",
   zinc: "zinc",
   plasticos_mecanizados: "pomc",
+  plasticos_industriales: "pomc",
 };
 
 const ProductDetails = () => {

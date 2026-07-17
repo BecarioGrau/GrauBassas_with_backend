@@ -15,6 +15,7 @@ JSON_FILES = {
     "cobre.json": MaterialKind.COBRE,
     "zinc.json": MaterialKind.ZINC,
     "hierros_fundidos.json": MaterialKind.HIERROS_FUNDICION,
+    "plasticos_industriales.json": MaterialKind.PLASTICOS_INDUSTRIALES,
 }
 
 # backend/products/management/commands/ → raíz del repo

@@ -20,6 +20,7 @@ import {
 } from "../Icons";
 import DynamicTable from "../Modals/DynamicTable";
 import { getProductsByCategory } from "../../services/catalogService";
+import { productDetailPath } from "../../utils/productSlug";
 
 const slugify = (text) => {
   if (!text) return "";
@@ -167,7 +168,7 @@ const Materials = () => {
       italia: p.equivalencias?.italia || "-",
       usa: p.equivalencias?.usa || p.data?.aisi || "-",
       japon: p.equivalencias?.japon || "-",
-      _href: `/productos/materiales/${title}/${encodeURIComponent(p.title)}`,
+      _href: productDetailPath(title, p.title),
     }));
   }, [catalogData, title]);
 

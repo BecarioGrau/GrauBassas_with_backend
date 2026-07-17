@@ -8,6 +8,7 @@ export const CATEGORY_JSON_FILES = {
   cobre: "cobre.json",
   hierros_fundidos: "hierros_fundidos.json",
   zinc: "zinc.json",
+  plasticos_industriales: "plasticos_industriales.json",
 };
 
 export const API_PRODUCTS_BASE =

@@ -1,5 +1,6 @@
 import { CATEGORY_JSON_FILES } from "../config/catalogConfig";
 import { getProducts as fetchApiProducts } from "../api/catalogApi";
+import { productTitleMatches } from "../utils/productSlug";
 
 const normalizeTitle = (title) =>
   String(title ?? "")
@@ -195,8 +196,9 @@ export async function getProductsByCategory(categorySlug) {
 
 export async function findProductByCategoryAndTitle(categorySlug, title) {
   const products = await getProductsByCategory(categorySlug);
-  const target = normalizeTitle(title);
-  return products.find((p) => normalizeTitle(p.title) === target) ?? null;
+  return (
+    products.find((p) => productTitleMatches(title, p.title)) ?? null
+  );
 }
 
 export async function fetchTemplates() {
